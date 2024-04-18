@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #02153C;
+}
+
+.teamContainer {
+  width: calc(33.33% - 20px); /* Pour que 3 équipes s'affichent par ligne */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.teamLogo {
+  width: 100px; /* Ajustez la taille du logo selon vos besoins */
+  height: 100px; /* Ajustez la taille du logo selon vos besoins */
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.teamName {
+  font-size: 18px;
+}

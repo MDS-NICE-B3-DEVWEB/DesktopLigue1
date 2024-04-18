@@ -1,0 +1,29 @@
+.playerName {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .playerInfo {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .errorText {
+    color: red;
+    font-size: 18px;
+  }
+  
+  .playerImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .placeholderImage {
+    width: 200px;
+    height: 200px;
+    background-color: #777;
+    margin-bottom: 20px;
+  }
+  

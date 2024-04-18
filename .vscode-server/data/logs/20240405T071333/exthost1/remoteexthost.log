@@ -1,0 +1,48 @@
+2024-04-05 07:13:35.664 [info] Extension host with pid 1838888 started
+2024-04-05 07:13:35.766 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-05 07:13:35.769 [info] ExtensionService#_doActivateExtension akhail.save-typing, startup: true, activationEvent: '*'
+2024-04-05 07:13:35.837 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-05 07:13:35.837 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-05 07:13:36.538 [info] Eager extensions activated
+2024-04-05 07:13:36.539 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-05 07:13:36.540 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-05 07:13:36.544 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-04-05 07:13:36.545 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-04-05 07:18:43.985 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-04-05 07:18:44.016 [error] Canceled: Canceled
+    at Object.C [as $6] (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:147:2349
+    at Array.forEach (<anonymous>)
+    at s.dispose (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:147:2287)
+    at p.terminate (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:8052)
+    at o.terminate (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+    at t (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+    at O.a (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:173:6742)
+    at O.h (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:97:20588)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7) setContext undefined
+2024-04-05 07:18:44.017 [error] Canceled: Canceled
+    at Object.C [as $6] (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:147:2349
+    at Array.forEach (<anonymous>)
+    at s.dispose (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:147:2287)
+    at p.terminate (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:8052)
+    at o.terminate (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+    at t (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+    at O.a (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:173:6742)
+    at O.h (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:97:20588)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7) setContext undefined
+2024-04-05 07:18:44.018 [error] Canceled: Canceled
+    at Object.C [as $6] (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+    at /home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:147:2349
+    at Array.forEach (<anonymous>)
+    at s.dispose (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:147:2287)
+    at p.terminate (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:156:8052)
+    at o.terminate (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+    at t (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+    at O.a (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:173:6742)
+    at O.h (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/workbench/api/node/extensionHostProcess.js:97:20588)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7) setContext undefined
+2024-04-05 07:18:44.029 [info] Extension host with pid 1838888 exiting with code 0

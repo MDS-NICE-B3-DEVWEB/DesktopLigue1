@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #js-statorium-widget-164 img {
+    width: 30px; /* Changez cette valeur pour ajuster la taille */
+    height: auto;
+  }
+
+/* Add 1px border to specific elements in the Statorium widget CSS */
+
+/* Standings Widget */
+.statoriumWidgetStandings table.tblStatoriumStandings td,
+.statoriumWidgetStandings table.tblStatoriumStandings th {
+    border: 1px solid #efefef;
+}
+
+/* Top Players Widget */
+.statoriumWidgetEvents table.tblStatoriumEvents td {
+    border: 1px solid #efefef;
+}
+
+/* Matches Widget */
+.statoriumWidgetMatches table.tblStatoriumMatches td,
+.statoriumWidgetMatches table.tblStatoriumMatches th {
+    border: 1px solid #efefef;
+}
+
+/* Transfers Widget */
+.statoriumWidgetTransfers table.tblStatoriumTransfers td,
+.statoriumWidgetTransfers table.tblStatoriumTransfers th {
+    border: 1px solid #efefef;
+}
+
+
+/* Center all elements in the Statorium widget tables */
+
+/* Standings Widget */
+.statoriumWidgetStandings table.tblStatoriumStandings {
+  table-layout: fixed;
+}
+.statoriumWidgetStandings table.tblStatoriumStandings td,
+.statoriumWidgetStandings table.tblStatoriumStandings th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Top Players Widget */
+.statoriumWidgetEvents table.tblStatoriumEvents {
+  table-layout: fixed;
+}
+.statoriumWidgetEvents table.tblStatoriumEvents td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Matches Widget */
+.statoriumWidgetMatches table.tblStatoriumMatches {
+  table-layout: fixed;
+}
+.statoriumWidgetMatches table.tblStatoriumMatches td,
+.statoriumWidgetMatches table.tblStatoriumMatches th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Transfers Widget */
+.statoriumWidgetTransfers table.tblStatoriumTransfers {
+  table-layout: fixed;
+}
+.statoriumWidgetTransfers table.tblStatoriumTransfers td,
+.statoriumWidgetTransfers table.tblStatoriumTransfers th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.statoriumWidgetStandings {
+  margin: 0 auto; /* This will center the widget horizontally */
+  text-align: center; /* This will center the widget content */
+  max-width: 00px; /* Adjust the maximum width as needed */
+}
+
+body {
+  color: #FFFFFF;
+  background-color: #02153C;
+}
+
+/* Ajuster l'espace dans les cellules du tableau pour tous les widgets */
+
+/* Standings Widget */
+.statoriumWidgetStandings table.tblStatoriumStandings td,
+.statoriumWidgetStandings table.tblStatoriumStandings th {
+    padding: 10px; /* Ajustez la valeur selon vos préférences */
+}
+
+/* Top Players Widget */
+.statoriumWidgetEvents table.tblStatoriumEvents td {
+    padding: 10px; /* Ajustez la valeur selon vos préférences */
+}
+
+/* Matches Widget */
+.statoriumWidgetMatches table.tblStatoriumMatches td,
+.statoriumWidgetMatches table.tblStatoriumMatches th {
+    padding: 10px; /* Ajustez la valeur selon vos préférences */
+}
+
+/* Transfers Widget */
+.statoriumWidgetTransfers table.tblStatoriumTransfers td,
+.statoriumWidgetTransfers table.tblStatoriumTransfers th {
+    padding: 10px; /* Ajustez la valeur selon vos préférences */
+}
+

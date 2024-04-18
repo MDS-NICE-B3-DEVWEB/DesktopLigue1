@@ -1,0 +1,31 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-352e5ac5-24d8-4382-bebb-4651921ee0fb
+Extension host agent listening on /tmp/code-352e5ac5-24d8-4382-bebb-4651921ee0fb
+
+[07:13:33] 
+
+
+
+
+[07:13:33] Extension host agent started.
+[07:13:34] [<unknown>][1d9180b5][ExtensionHostConnection] New connection established.
+[07:13:34] [<unknown>][15ba4fc2][ManagementConnection] New connection established.
+[07:13:34] [<unknown>][1d9180b5][ExtensionHostConnection] <1838888> Launched Extension Host Process.
+[07:13:42] [<unknown>][34306ee3][ManagementConnection] New connection established.
+[07:13:42] [<unknown>][faf0583c][ExtensionHostConnection] New connection established.
+[07:13:42] [<unknown>][faf0583c][ExtensionHostConnection] <1838994> Launched Extension Host Process.
+[07:13:53] Getting Manifest... github.copilot
+[07:13:53] No ptyHost heartbeat after 6 seconds
+[07:13:54] Installing extension: github.copilot
+[07:14:01] Extension signature is verified: github.copilot
+[07:14:03] Extracted extension to file:///home/louis/.vscode-server/extensions/github.copilot-1.178.0: github.copilot
+[07:14:03] Renamed to /home/louis/.vscode-server/extensions/github.copilot-1.178.0
+[07:14:03] Extracting extension completed. github.copilot
+[07:14:03] Extension installed successfully: github.copilot
+[07:14:03] Marked extension as uninstalled github.copilot-1.177.0

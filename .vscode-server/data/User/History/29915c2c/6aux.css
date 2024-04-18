@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #js-statorium-widget-164 img {
+    width: 30px; /* Changez cette valeur pour ajuster la taille */
+    height: auto;
+  }
+
+/* Add 1px border to specific elements in the Statorium widget CSS */
+
+/* Standings Widget */
+.statoriumWidgetStandings table.tblStatoriumStandings td,
+.statoriumWidgetStandings table.tblStatoriumStandings th {
+    border: 1px solid #efefef;
+}
+
+/* Top Players Widget */
+.statoriumWidgetEvents table.tblStatoriumEvents td {
+    border: 1px solid #efefef;
+}
+
+/* Matches Widget */
+.statoriumWidgetMatches table.tblStatoriumMatches td,
+.statoriumWidgetMatches table.tblStatoriumMatches th {
+    border: 1px solid #efefef;
+}
+
+/* Transfers Widget */
+.statoriumWidgetTransfers table.tblStatoriumTransfers td,
+.statoriumWidgetTransfers table.tblStatoriumTransfers th {
+    border: 1px solid #efefef;
+}

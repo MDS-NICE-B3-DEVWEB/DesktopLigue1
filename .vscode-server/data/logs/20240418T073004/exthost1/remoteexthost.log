@@ -1,0 +1,62 @@
+2024-04-18 07:30:08.067 [info] Extension host with pid 2142946 started
+2024-04-18 07:30:08.203 [info] Lock '/home/louis/.vscode-server/data/User/workspaceStorage/4fc85d8787b7a6c2dcacbada8454c0e1/vscode.lock': Lock acquired.
+2024-04-18 07:30:09.710 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-04-18 07:30:09.712 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-18 07:30:09.717 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-04-18 07:30:09.718 [info] ExtensionService#_doActivateExtension amiralizadeh9480.laravel-extra-intellisense, startup: false, activationEvent: 'onLanguage:php'
+2024-04-18 07:30:09.719 [info] ExtensionService#_doActivateExtension codingyu.laravel-goto-view, startup: false, activationEvent: 'onLanguage:php'
+2024-04-18 07:30:09.719 [info] ExtensionService#_doActivateExtension ctf0.laravel-goto-controller, startup: false, activationEvent: 'onLanguage:php'
+2024-04-18 07:30:09.719 [info] ExtensionService#_doActivateExtension DEVSENSE.intelli-php-vscode, startup: false, activationEvent: 'onLanguage:php'
+2024-04-18 07:30:10.722 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-18 07:30:10.723 [info] ExtensionService#_doActivateExtension akhail.save-typing, startup: true, activationEvent: '*'
+2024-04-18 07:30:10.743 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-04-18 07:30:11.192 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-18 07:30:11.192 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-18 07:30:12.212 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-18 07:30:12.212 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-18 07:30:16.909 [info] ExtensionService#_doActivateExtension ryannaddy.laravel-artisan, startup: true, activationEvent: 'workspaceContains:**/artisan'
+2024-04-18 07:30:19.047 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-04-18 07:30:22.017 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-18 07:30:22.018 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-18 07:30:22.018 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-04-18 07:30:22.035 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-04-18 07:30:24.287 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-04-18 07:30:26.989 [info] Eager extensions activated
+2024-04-18 07:47:03.609 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockerfile'
+2024-04-18 07:49:46.773 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-04-18 09:53:07.113 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10003
+2024-04-18 09:59:37.373 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/main.js:2:1023548)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-04-18 09:59:37.374 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/main.js:2:1023548)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-04-18 09:59:37.374 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/main.js:2:1023548)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-04-18 09:59:37.374 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/main.js:2:1023548)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-04-18 09:59:38.376 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/main.js:2:1023548)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-04-18 09:59:38.382 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/main.js:2:1023548)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-04-18 09:59:38.383 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/main.js:2:1023548)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-04-18 09:59:38.386 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/main.js:2:1023548)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-04-18 10:03:54.733 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-04-18 10:03:57.872 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-04-18 10:09:44.091 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'

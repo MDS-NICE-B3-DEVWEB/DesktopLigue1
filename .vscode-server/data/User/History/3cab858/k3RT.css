@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .topSection {
+    height: 20px;
+    background-color: #02153C; /* Même couleur que le background */
+  }
+  
+  .matchdayButtonsContainer {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .matchdayButtonsScrollView {
+    display: n;
+  }
+  
+  .matchdayButton {
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  .selectedMatchdayButton {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .matchesScrollViewContainer {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .matchesContainer {
+    padding: 10px;
+  }
+  
+  .matchContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .teamContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .teamLogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+  }
+  
+  .teamName {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .scoreContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .scoreText {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 5px;
+    color: #fff;
+  }
+  

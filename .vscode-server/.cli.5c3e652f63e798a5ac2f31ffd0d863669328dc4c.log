@@ -1,0 +1,7 @@
+Listening on 127.0.0.1:34401
+[2024-04-16 13:32:53] info Disposed of connection to running server.
+looking for token 2b7ec37e-1c56-4915-8199-829ea5db550a, got Some("2b7ec37e-1c56-4915-8199-829ea5db550a")
+[2024-04-16 13:32:57] info Checking /home/louis/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/log.txt and /home/louis/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/pid.txt for a running server...
+[2024-04-16 13:32:57] info Found running server (pid=2088490)
+[2024-04-16 16:36:55] warn error handling call: NoAttachedServerError(NoAttachedServerError)
+[2024-04-16 16:52:02] info Disposed of connection to running server.

@@ -1,0 +1,8 @@
+react:
+  build:
+    context: .
+    dockerfile: ./ligue1-frontend/dockerfile
+  ports:
+    - "3000:3000"
+  volumes:
+    - ./app:/app

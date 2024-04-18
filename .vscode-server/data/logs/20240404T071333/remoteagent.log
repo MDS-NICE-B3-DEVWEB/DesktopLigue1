@@ -1,0 +1,19 @@
+2024-04-04 07:13:33.931 [info] 
+
+
+
+
+2024-04-04 07:13:33.960 [info] Extension host agent started.
+2024-04-04 07:13:34.170 [info] Deleted uninstalled extension from disk devsense.composer-php-vscode /home/louis/.vscode-server/extensions/devsense.composer-php-vscode-1.45.15145
+2024-04-04 07:13:34.172 [info] Deleted uninstalled extension from disk devsense.profiler-php-vscode /home/louis/.vscode-server/extensions/devsense.profiler-php-vscode-1.45.15145
+2024-04-04 07:13:34.173 [info] Deleted uninstalled extension from disk github.copilot /home/louis/.vscode-server/extensions/github.copilot-1.175.0
+2024-04-04 07:13:34.357 [info] [<unknown>][75bbdd8a][ExtensionHostConnection] New connection established.
+2024-04-04 07:13:34.373 [info] [<unknown>][7d1418c0][ManagementConnection] New connection established.
+2024-04-04 07:13:34.564 [info] [<unknown>][75bbdd8a][ExtensionHostConnection] <1820035> Launched Extension Host Process.
+2024-04-04 07:18:33.962 [info] New EH opened, aborting shutdown
+2024-04-04 10:27:17.176 [info] [<unknown>][75bbdd8a][ExtensionHostConnection] <1820035> Extension Host Process exited with code: 0, signal: null.
+2024-04-04 10:27:17.179 [info] Last EH closed, waiting before shutting down
+2024-04-04 10:27:17.181 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/louis/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
+2024-04-04 10:32:17.181 [info] Last EH closed, shutting down

@@ -1,0 +1,6 @@
+2024-04-15 12:49:46.592 [info] [FetcherService] Using Helix fetcher
+2024-04-15 12:49:46.593 [info] [gitExtensionService] Initializing Git extension service.
+2024-04-15 12:49:46.593 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-04-15 12:49:46.594 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-04-15 12:49:46.594 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-04-15 13:55:53.626 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "Canceled"

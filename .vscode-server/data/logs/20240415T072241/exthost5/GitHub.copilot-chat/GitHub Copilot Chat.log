@@ -1,0 +1,50 @@
+2024-04-15 07:40:08.134 [info] [FetcherService] Using Helix fetcher
+2024-04-15 07:40:08.135 [info] [gitExtensionService] Initializing Git extension service.
+2024-04-15 07:40:12.648 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-04-15 07:40:12.650 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-04-15 07:40:12.651 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-04-15 07:40:17.673 [info] [auth] Logged in as LouisHourlier
+2024-04-15 07:40:22.138 [info] [chat] copilot token chat_enabled: true
+2024-04-15 07:40:22.139 [info] [chat] Registration of interactive providers failed:,Error: Extension 'GitHub.copilot-chat' CANNOT use API proposal: aiTextSearchProvider.
+Its package.json#enabledApiProposals-property declares: handleIssueUri, interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver but NOT aiTextSearchProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.copilot-chat
+2024-04-15 07:40:22.139 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-04-15 07:40:22.140 [info] [githubTitleAndDescriptionProvider] GitHub.vscode-pull-request-github extension is not yet activated.
+2024-04-15 07:40:22.205 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-15 07:40:36.633 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-15 07:40:36.634 [info] [chat fetch] modelMaxPromptTokens 3072
+2024-04-15 07:40:36.634 [info] [chat fetch] modelMaxResponseTokens 2732
+2024-04-15 07:40:36.634 [info] [chat fetch] chat model gpt-4
+2024-04-15 07:40:38.488 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1850 ms
+2024-04-15 07:41:12.003 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-15 07:41:12.013 [info] [streamChoices] request done: requestId: [97ceebbe-441d-420e-87c6-f6c68b208fc5] responseId: [97ceebbe-441d-420e-87c6-f6c68b208fc5] model deployment ID: []
+2024-04-15 07:41:12.190 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-15 07:41:12.190 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-04-15 07:41:12.191 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-15 07:41:12.192 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-04-15 07:41:12.883 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 688 ms
+2024-04-15 07:41:12.932 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-15 07:41:12.934 [info] [streamChoices] request done: requestId: [2d2de444-4c50-438b-bc22-bd615153dc89] responseId: [2d2de444-4c50-438b-bc22-bd615153dc89] model deployment ID: [x4dff5e5d11fc]
+2024-04-15 07:57:55.248 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-15 07:57:55.266 [info] [chat fetch] modelMaxPromptTokens 3072
+2024-04-15 07:57:55.267 [info] [chat fetch] modelMaxResponseTokens 3566
+2024-04-15 07:57:55.267 [info] [chat fetch] chat model gpt-4
+2024-04-15 07:57:57.568 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 2298 ms
+2024-04-15 07:58:05.204 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-15 07:58:05.209 [info] [streamChoices] request done: requestId: [331994fb-5b30-4777-8e79-15e882da3145] responseId: [331994fb-5b30-4777-8e79-15e882da3145] model deployment ID: []
+2024-04-15 07:58:05.363 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-15 07:58:05.364 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-04-15 07:58:05.364 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-15 07:58:05.364 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-04-15 07:58:05.956 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 590 ms
+2024-04-15 07:58:05.994 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-15 07:58:05.996 [info] [streamChoices] request done: requestId: [6d1ca8db-e5dd-4041-9f7a-7913979bc0d2] responseId: [6d1ca8db-e5dd-4041-9f7a-7913979bc0d2] model deployment ID: [x4dff5e5d11fc]
+2024-04-15 08:05:22.429 [info] [auth] Logged in as LouisHourlier
+2024-04-15 08:05:22.695 [info] [chat] copilot token chat_enabled: true
+2024-04-15 08:05:22.695 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-15 08:30:22.874 [info] [auth] Logged in as LouisHourlier
+2024-04-15 08:30:23.088 [info] [chat] copilot token chat_enabled: true
+2024-04-15 08:30:23.089 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-15 08:55:23.385 [info] [auth] Logged in as LouisHourlier
+2024-04-15 08:55:23.633 [info] [chat] copilot token chat_enabled: true
+2024-04-15 08:55:23.634 [info] [auth] Got Copilot token for LouisHourlier

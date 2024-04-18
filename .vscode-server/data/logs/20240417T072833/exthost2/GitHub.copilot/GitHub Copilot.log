@@ -1,0 +1,45 @@
+2024-04-17 07:29:10.402 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 07:29:10.403 [info] [code-referencing] Public code references are enabled.
+2024-04-17 07:29:10.410 [info] [auth] Sucessfully authenticated
+2024-04-17 07:54:11.099 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 07:54:11.100 [info] [code-referencing] Public code references are enabled.
+2024-04-17 08:19:12.137 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 08:19:12.137 [info] [code-referencing] Public code references are enabled.
+2024-04-17 08:44:13.322 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 08:44:13.322 [info] [code-referencing] Public code references are enabled.
+2024-04-17 09:09:13.984 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 09:09:13.990 [info] [code-referencing] Public code references are enabled.
+2024-04-17 09:34:14.619 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 09:34:14.619 [info] [code-referencing] Public code references are enabled.
+2024-04-17 09:59:16.666 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 09:59:16.667 [info] [code-referencing] Public code references are enabled.
+2024-04-17 10:24:17.364 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 10:24:17.364 [info] [code-referencing] Public code references are enabled.
+2024-04-17 11:31:34.535 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 11:31:34.535 [info] [code-referencing] Public code references are enabled.
+2024-04-17 11:56:35.319 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 11:56:35.319 [info] [code-referencing] Public code references are enabled.
+2024-04-17 12:21:36.046 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 12:21:36.046 [info] [code-referencing] Public code references are enabled.
+2024-04-17 12:46:37.540 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 12:46:37.540 [info] [code-referencing] Public code references are enabled.
+2024-04-17 13:11:38.408 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 13:11:38.409 [info] [code-referencing] Public code references are enabled.
+2024-04-17 13:36:39.132 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 13:36:39.132 [info] [code-referencing] Public code references are enabled.
+2024-04-17 14:01:40.450 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 14:01:40.450 [info] [code-referencing] Public code references are enabled.
+2024-04-17 14:16:15.076 [info] [fetchCompletions] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 778 ms
+2024-04-17 14:16:15.085 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2024-04-17 14:16:15.092 [info] [streamChoices] request done: headerRequestId: [508dad92-6e36-4b9d-af1e-4d832fd32742] model deployment ID: [y6953999e1f31]
+2024-04-17 14:16:18.461 [info] [fetchCompletions] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 674 ms
+2024-04-17 14:16:18.465 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2024-04-17 14:16:18.467 [info] [streamChoices] solution 1 returned. finish reason: [stop]
+2024-04-17 14:16:18.469 [info] [streamChoices] request done: headerRequestId: [1676d82b-b6ab-4c56-a5c9-fefd7e4dcfb2] model deployment ID: [y6953999e1f31]
+2024-04-17 14:16:32.252 [info] [fetchCompletions] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 464 ms
+2024-04-17 14:16:32.256 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2024-04-17 14:16:32.257 [info] [streamChoices] request done: headerRequestId: [4cb0e510-d1df-4c30-bb2b-c9b7be97d3ff] model deployment ID: [y6953999e1f31]
+2024-04-17 14:26:41.122 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 14:26:41.123 [info] [code-referencing] Public code references are enabled.
+2024-04-17 14:51:41.682 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-17 14:51:41.683 [info] [code-referencing] Public code references are enabled.

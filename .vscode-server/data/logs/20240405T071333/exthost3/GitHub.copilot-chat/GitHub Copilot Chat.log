@@ -1,0 +1,28 @@
+2024-04-05 07:35:10.798 [info] [FetcherService] Using Helix fetcher
+2024-04-05 07:35:10.798 [info] [gitExtensionService] Initializing Git extension service.
+2024-04-05 07:35:10.798 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-04-05 07:35:10.798 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-04-05 07:35:10.798 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-04-05 07:35:16.402 [info] [auth] Logged in as LouisHourlier
+2024-04-05 07:35:17.049 [info] [chat] copilot token chat_enabled: true
+2024-04-05 07:35:17.049 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-04-05 07:35:17.050 [info] [githubTitleAndDescriptionProvider] GitHub.vscode-pull-request-github extension is not yet activated.
+2024-04-05 07:35:17.082 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-05 08:00:17.266 [info] [auth] Logged in as LouisHourlier
+2024-04-05 08:00:17.571 [info] [chat] copilot token chat_enabled: true
+2024-04-05 08:00:17.572 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-05 08:25:17.648 [info] [auth] Logged in as LouisHourlier
+2024-04-05 08:25:17.888 [info] [chat] copilot token chat_enabled: true
+2024-04-05 08:25:17.889 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-05 08:50:17.962 [info] [auth] Logged in as LouisHourlier
+2024-04-05 08:50:18.165 [info] [chat] copilot token chat_enabled: true
+2024-04-05 08:50:18.166 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-05 09:15:18.242 [info] [auth] Logged in as LouisHourlier
+2024-04-05 09:15:18.473 [info] [chat] copilot token chat_enabled: true
+2024-04-05 09:15:18.474 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-05 09:42:15.689 [info] [auth] Logged in as LouisHourlier
+2024-04-05 09:42:16.196 [info] [chat] copilot token chat_enabled: true
+2024-04-05 09:42:16.196 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-05 10:09:15.696 [info] [auth] Logged in as LouisHourlier
+2024-04-05 10:09:16.764 [info] [chat] copilot token chat_enabled: true
+2024-04-05 10:09:16.765 [info] [auth] Got Copilot token for LouisHourlier

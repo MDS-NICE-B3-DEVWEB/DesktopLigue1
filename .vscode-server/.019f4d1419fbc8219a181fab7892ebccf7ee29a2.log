@@ -1,0 +1,681 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:44685 (IPv4)
+Extension host agent listening on 44685
+
+[08:43:44] 
+
+
+
+
+[08:43:44] Extension host agent started.
+[08:43:44] [127.0.0.1][78a40e25][ManagementConnection] New connection established.
+[08:43:45] [127.0.0.1][7090d729][ExtensionHostConnection] New connection established.
+[08:43:45] [127.0.0.1][7090d729][ExtensionHostConnection] <1457333> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[08:43:47] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[08:43:50] Getting Manifest... devsense.composer-php-vscode
+[08:43:50] Getting Manifest... devsense.profiler-php-vscode
+[08:43:50] Getting Manifest... github.copilot
+[08:43:50] Getting Manifest... github.copilot-chat
+[08:43:50] Getting Manifest... onecentlin.laravel-blade
+[08:43:50] Installing extension: devsense.profiler-php-vscode
+[08:43:50] Installing extension: github.copilot
+[08:43:50] Installing extension: onecentlin.laravel-blade
+[08:43:50] Installing extension: devsense.composer-php-vscode
+[08:43:50] Installing extension: github.copilot-chat
+[08:43:54] [127.0.0.1][78a40e25][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:43:56] [127.0.0.1][7090d729][ExtensionHostConnection] <1457333> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[08:43:56] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[08:43:56] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[08:43:57] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[08:43:57] Cancelling previous shutdown timeout
+[08:43:58] [127.0.0.1][87840aca][ManagementConnection] New connection established.
+[08:43:58] [127.0.0.1][ce4af7bf][ExtensionHostConnection] New connection established.
+[08:43:58] [127.0.0.1][ce4af7bf][ExtensionHostConnection] <1457495> Launched Extension Host Process.
+[08:44:00] Extension signature is verified: devsense.profiler-php-vscode
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[08:44:01] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[08:44:01] Extension signature is verified: github.copilot-chat
+[08:44:01] Extension signature is verified: onecentlin.laravel-blade
+[08:44:01] Extension signature is verified: github.copilot
+[08:44:01] Extension signature is verified: devsense.composer-php-vscode
+[08:44:03] Extracted extension to file:///home/louis/.vscode-server/extensions/devsense.composer-php-vscode-1.45.15145: devsense.composer-php-vscode
+[08:44:03] Renamed to /home/louis/.vscode-server/extensions/devsense.composer-php-vscode-1.45.15145
+[08:44:03] Extracting extension completed. devsense.composer-php-vscode
+[08:44:03] Extension installed successfully: devsense.composer-php-vscode
+[08:44:03] Extracted extension to file:///home/louis/.vscode-server/extensions/devsense.profiler-php-vscode-1.45.15145: devsense.profiler-php-vscode
+[08:44:03] Renamed to /home/louis/.vscode-server/extensions/devsense.profiler-php-vscode-1.45.15145
+[08:44:03] Marked extension as uninstalled devsense.composer-php-vscode-1.45.15061
+[08:44:03] Extracting extension completed. devsense.profiler-php-vscode
+[08:44:03] Extension installed successfully: devsense.profiler-php-vscode
+[08:44:04] Marked extension as uninstalled devsense.profiler-php-vscode-1.45.15061
+[08:44:05] Getting Manifest... github.copilot
+[08:44:05] Getting Manifest... github.copilot-chat
+[08:44:05] Getting Manifest... onecentlin.laravel-blade
+[08:44:05] Extension is already requested to install onecentlin.laravel-blade
+[08:44:05] Extension is already requested to install github.copilot
+[08:44:05] Extension is already requested to install github.copilot-chat
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[08:44:05] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[08:44:05] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[08:44:07] Extracted extension to file:///home/louis/.vscode-server/extensions/github.copilot-chat-0.13.1: github.copilot-chat
+[08:44:07] Renamed to /home/louis/.vscode-server/extensions/github.copilot-chat-0.13.1
+[08:44:07] Extracting extension completed. github.copilot-chat
+[08:44:07] Extension installed successfully: github.copilot-chat
+[08:44:07] Marked extension as uninstalled github.copilot-chat-0.13.0
+[08:44:08] Extracted extension to file:///home/louis/.vscode-server/extensions/github.copilot-1.174.0: github.copilot
+[08:44:08] Renamed to /home/louis/.vscode-server/extensions/github.copilot-1.174.0
+[08:44:08] Extracting extension completed. github.copilot
+[08:44:08] Extension installed successfully: github.copilot
+[08:44:08] Marked extension as uninstalled github.copilot-1.172.0
+[08:44:09] Extracted extension to file:///home/louis/.vscode-server/extensions/onecentlin.laravel-blade-1.36.0: onecentlin.laravel-blade
+[08:44:09] Renamed to /home/louis/.vscode-server/extensions/onecentlin.laravel-blade-1.36.0
+[08:44:09] Extracting extension completed. onecentlin.laravel-blade
+[08:44:09] Extension installed successfully: onecentlin.laravel-blade
+[08:44:09] Marked extension as uninstalled onecentlin.laravel-blade-1.35.1
+[08:44:11] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/louis/.vscode-server/extensions/.1bc3ee4d-3dc1-44b8-9f8d-2c1aa5697a55/server' failed: No such file or directory (EUNKNOWN) (path: /home/louis)
+[08:44:11] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/louis/.vscode-server/extensions/.1bc3ee4d-3dc1-44b8-9f8d-2c1aa5697a55/server' failed: No such file or directory
+New EH opened, aborting shutdown
+[08:48:57] New EH opened, aborting shutdown
+[09:48:01] [127.0.0.1][87840aca][ManagementConnection] The client has reconnected.
+[09:48:01] [127.0.0.1][ce4af7bf][ExtensionHostConnection] The client has reconnected.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[09:48:02] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[09:48:02] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[09:48:02] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[09:48:02] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[12:07:16] [127.0.0.1][87840aca][ManagementConnection] The client has reconnected.
+[12:07:16] [127.0.0.1][ce4af7bf][ExtensionHostConnection] The client has reconnected.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[12:07:17] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[12:07:17] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[12:07:17] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[12:07:25] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[12:12:51] [127.0.0.1][87840aca][ManagementConnection] The client has reconnected.
+[12:13:12] [127.0.0.1][ce4af7bf][ExtensionHostConnection] The client has reconnected.
+[12:34:48] [127.0.0.1][ce4af7bf][ExtensionHostConnection] The client has reconnected.
+[13:31:22] [127.0.0.1][87840aca][ManagementConnection] The client has reconnected.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[13:31:23] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[13:31:23] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[13:31:58] [127.0.0.1][ce4af7bf][ExtensionHostConnection] The client has reconnected.
+[15:05:20] [127.0.0.1][87840aca][ManagementConnection] The client has reconnected.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[15:05:21] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[15:05:21] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[15:05:21] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[15:05:22] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[15:05:31] [127.0.0.1][ce4af7bf][ExtensionHostConnection] The client has reconnected.
+[15:54:41] [127.0.0.1][87840aca][ManagementConnection] The client has reconnected.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[15:54:42] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[15:54:42] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/louis/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[15:55:14] [127.0.0.1][ce4af7bf][ExtensionHostConnection] The client has reconnected.
+[15:56:46] [127.0.0.1][87840aca][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:56:47] [127.0.0.1][ce4af7bf][ExtensionHostConnection] <1457495> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[15:56:47] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[16:01:47] Last EH closed, shutting down

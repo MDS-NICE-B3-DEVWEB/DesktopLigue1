@@ -1,0 +1,16 @@
+2024-03-22 08:01:25.821 [info] [FetcherService] Using Helix fetcher
+2024-03-22 08:01:25.821 [info] [gitExtensionService] Initializing Git extension service.
+2024-03-22 08:01:25.821 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-03-22 08:01:25.821 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-03-22 08:01:25.821 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-03-22 08:01:27.192 [info] [auth] Logged in as LouisHourlier
+2024-03-22 08:01:27.947 [info] [chat] copilot token chat_enabled: true
+2024-03-22 08:01:27.948 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-03-22 08:01:27.948 [info] [githubTitleAndDescriptionProvider] GitHub.vscode-pull-request-github extension is not yet activated.
+2024-03-22 08:01:27.976 [info] [auth] Got Copilot token for LouisHourlier
+2024-03-22 08:27:30.805 [info] [auth] Logged in as LouisHourlier
+2024-03-22 08:27:31.308 [info] [chat] copilot token chat_enabled: true
+2024-03-22 08:27:31.308 [info] [auth] Got Copilot token for LouisHourlier
+2024-03-22 08:54:30.774 [info] [auth] Logged in as LouisHourlier
+2024-03-22 08:54:31.223 [info] [chat] copilot token chat_enabled: true
+2024-03-22 08:54:31.223 [info] [auth] Got Copilot token for LouisHourlier
