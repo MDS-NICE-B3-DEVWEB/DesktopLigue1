@@ -31,3 +31,9 @@
 2024-04-24 07:13:58.964 [info] [<unknown>][844a3f78][ExtensionHostConnection] <2337751> Extension Host Process exited with code: 0, signal: null.
 2024-04-24 07:50:29.263 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
 2024-04-24 07:56:13.938 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-04-24 12:04:06.703 [info] [<unknown>][3d092d35][ManagementConnection] New connection established.
+2024-04-24 12:04:06.735 [info] [<unknown>][f7866d4a][ExtensionHostConnection] New connection established.
+2024-04-24 12:04:06.747 [info] [<unknown>][f7866d4a][ExtensionHostConnection] <2346790> Launched Extension Host Process.
+2024-04-24 12:06:45.572 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-04-24 12:07:51.670 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-04-24 12:09:08.500 [info] [<unknown>][f90f85ae][ExtensionHostConnection] <2337850> Extension Host Process exited with code: 0, signal: null.

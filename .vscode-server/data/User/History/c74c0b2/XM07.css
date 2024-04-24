@@ -1,0 +1,60 @@
+.containerHome {
+    color: white; /* Texte en blanc */
+    margin: 0 auto; /* Marges automatiques pour centrer le contenu horizontalement */
+    max-width: 75%; /* Largeur maximale du contenu */
+  }
+  
+  .summary {
+    display: flex;
+    margin-bottom: 3%;
+    margin-top: 7%;
+  }
+  
+  .summary > div {
+    flex: 1;
+    font-size: 1.2em; /* Taille de police plus grande */
+    line-height: 1.7; /* Espacement entre les lignes */
+  }
+  
+  .summary > div:nth-child(2) {
+    margin-left: 20px;
+  }
+  
+  .summary > div img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Pour centrer l'image horizontalement */
+    margin: 0 auto; /* Pour centrer l'image horizontalement */
+  }
+  
+  /* Styles pour le carrousel */
+  .carouselContainer {
+    margin-top: 2%;
+  }
+  
+  /* Styles pour les diapositives du carrousel */
+  .slick-slide img {
+    width: 1650px; /* Forcez chaque image à prendre la largeur du carrousel */
+    max-height: 500px; /* Définir la hauteur maximale des images du carrousel */
+    object-fit: cover; /* Redimensionner les images pour couvrir entièrement leur conteneur tout en conservant les proportions */
+    margin: 0 auto; /* Centrer l'image horizontalement */
+  }
+  .team-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team {
+    width: 22%;
+    margin-bottom: 20px;
+  }
+  
+  .team img {
+    width: 25%; /* Nouvelle taille des logos d'équipe */
+    height: auto;
+  }
+
+  .equipeBas {
+  margin-top:4% ;
+  }

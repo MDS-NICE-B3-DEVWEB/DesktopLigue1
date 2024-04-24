@@ -1,0 +1,64 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 16px;
+    background-color: #02153C;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #ffffff; /* Fond blanc */
+    max-width: 400px; /* Largeur maximale pour une meilleure lisibilité */
+  }
+  
+  .login-form label {
+    color: #CEFB03;
+  }
+  
+  .login-form input {
+    height: 40px;
+    border: 1px solid #CEFB03; /* Bordure jaune */
+    border-radius: 10px;
+    margin-bottom: 16px;
+    padding-left: 8px;
+    color: #02153C;
+  }
+  
+  .login-form input:focus {
+    outline: none;
+    border-color: #CEFB03; /* Changement de couleur de la bordure lorsqu'il est sélectionné */
+  }
+  
+  .login-form button {
+    background-color: #CEFB03;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    cursor: pointer; /* Curseur pointeur pour indiquer la possibilité de clic */
+    transition: background-color 0.3s ease; /* Transition fluide lors du survol */
+  }
+  
+  .login-form button:hover {
+    background-color: #BAC42F; /* Couleur légèrement différente lors du survol */
+  }
+  
+  .error-message {
+    color: white;
+    margin-top: 10px; /* Espacement entre le message d'erreur et le bouton */
+  }
+  
+  .register-link {
+    color: white;
+    margin-top: 10px; /* Espacement entre le bouton et le lien d'inscription */
+  }
+  
