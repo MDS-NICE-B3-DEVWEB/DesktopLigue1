@@ -21,7 +21,7 @@ import sdr from '../../assets/img/sdr.png';
 import srfc from '../../assets/img/srfc.png';
 import tfc from '../../assets/img/ftc.png';
 
-const images = [asm, cm63, fcl, fcm, fcn, tfc, hac, losc, mhsc, ogcn, ol, om, psg, rcl, rcsa, sb29, sdr, srfc];
+const images = [asm, cm63, fcl, fcm, fcn,  hac, losc, mhsc, ogcn, om, ol, psg, rcl, rcsa, sb29, sdr, srfc, tfc];
 const teamIds = [76, 622, 545, 120, 60, 625, 69, 65, 64, 59, 61, 66, 546, 68, 121, 72, 67, 63];
 
 const Equipetop = () => (

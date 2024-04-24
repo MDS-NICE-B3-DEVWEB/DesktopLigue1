@@ -1,0 +1,30 @@
+2024-04-21 13:30:05.209 [info] 
+
+
+
+
+2024-04-21 13:30:05.234 [info] Extension host agent started.
+2024-04-21 13:30:05.477 [info] [<unknown>][013f08a0][ExtensionHostConnection] New connection established.
+2024-04-21 13:30:05.544 [info] [<unknown>][dd23c78b][ManagementConnection] New connection established.
+2024-04-21 13:30:05.612 [info] [<unknown>][013f08a0][ExtensionHostConnection] <2252482> Launched Extension Host Process.
+2024-04-21 13:30:17.622 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/louis/.vscode-server/data/logs/20240320T082423/exthost1/output_logging_20240320T082426' failed: No such file or directory (EUNKNOWN) (path: /home/louis)
+2024-04-21 13:30:17.623 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/louis/.vscode-server/data/logs/20240320T082423/exthost1/output_logging_20240320T082426' failed: No such file or directory
+2024-04-21 13:35:05.237 [info] New EH opened, aborting shutdown
+2024-04-21 15:27:19.240 [info] [<unknown>][f6669fb0][ManagementConnection] New connection established.
+2024-04-21 15:27:19.245 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:191:6058)
+    at process.emit (node:events:517:28)
+2024-04-21 15:27:19.273 [info] [<unknown>][c36db689][ExtensionHostConnection] New connection established.
+2024-04-21 15:27:19.288 [info] [<unknown>][c36db689][ExtensionHostConnection] <2265409> Launched Extension Host Process.
+2024-04-21 15:32:20.011 [info] [<unknown>][013f08a0][ExtensionHostConnection] <2252482> Extension Host Process exited with code: 0, signal: null.
+2024-04-21 16:01:35.206 [info] [<unknown>][b4eeaf0e][ExtensionHostConnection] New connection established.
+2024-04-21 16:01:35.221 [info] [<unknown>][b4eeaf0e][ExtensionHostConnection] <2271722> Launched Extension Host Process.
+2024-04-21 16:01:35.234 [info] [<unknown>][67ed7386][ManagementConnection] New connection established.
+2024-04-21 16:01:47.304 [info] [<unknown>][d5d3e9e3][ExtensionHostConnection] New connection established.
+2024-04-21 16:01:47.321 [info] [<unknown>][d5d3e9e3][ExtensionHostConnection] <2271818> Launched Extension Host Process.
+2024-04-21 16:01:47.373 [info] [<unknown>][92aa0395][ManagementConnection] New connection established.
+2024-04-21 16:06:47.780 [info] [<unknown>][b4eeaf0e][ExtensionHostConnection] <2271722> Extension Host Process exited with code: 0, signal: null.
+2024-04-21 19:02:43.906 [info] [<unknown>][d5d3e9e3][ExtensionHostConnection] <2271818> Extension Host Process exited with code: 0, signal: null.
+2024-04-21 19:21:56.022 [info] [<unknown>][c36db689][ExtensionHostConnection] <2265409> Extension Host Process exited with code: 0, signal: null.
+2024-04-21 19:21:56.023 [info] Last EH closed, waiting before shutting down
+2024-04-21 19:26:56.025 [info] Last EH closed, shutting down

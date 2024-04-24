@@ -1,0 +1,40 @@
+.containerHome {
+    color: white; /* Texte en blanc */
+    margin: 0 auto; /* Marges automatiques pour centrer le contenu horizontalement */
+    max-width: 75%; /* Largeur maximale du contenu */
+  }
+  
+  .summary {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .summary > div {
+    flex: 1;
+  }
+  
+  .summary > div:nth-child(2) {
+    margin-left: 20px;
+  }
+  
+  .summary > div img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Pour centrer l'image horizontalement */
+    margin: 0 auto; /* Pour centrer l'image horizontalement */
+  }
+  
+  /* Styles pour le carrousel */
+  .carousel-container {
+    width: 80%; /* Définir une largeur fixe pour le carrousel */
+    max-width: 1000px; /* Largeur maximale du carrousel */
+    margin: 0 auto; /* Centrer le carrousel horizontalement */
+  }
+  
+  /* Styles pour les diapositives du carrousel */
+  .slick-slide img {
+    width: 1650px; /* Forcez chaque image à prendre la largeur du carrousel */
+    max-height: 500px; /* Définir la hauteur maximale des images du carrousel */
+    object-fit: cover; /* Redimensionner les images pour couvrir entièrement leur conteneur tout en conservant les proportions */
+  }
+  

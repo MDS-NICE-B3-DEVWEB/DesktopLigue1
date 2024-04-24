@@ -1,0 +1,104 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.2.0
+2 info using node@v18.19.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 5ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 6ms
+6 timing config:load:builtin Completed in 6ms
+7 timing config:load:cli Completed in 5ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/louis/.cache/typescript/5.4/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 7ms
+11 timing config:load:file:/home/louis/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 3ms
+16 timing config:load Completed in 30ms
+17 timing npm:load:configload Completed in 30ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm install @types/node@ts5.4 @types/vscode@ts5.4
+21 verbose argv "install" "--ignore-scripts" "@types/node@ts5.4" "@types/vscode@ts5.4" "--save-dev" "--user-agent" "typesInstaller/5.4.5"
+22 timing npm:load:setTitle Completed in 3ms
+23 timing config:load:flatten Completed in 14ms
+24 timing npm:load:display Completed in 17ms
+25 verbose logfile logs-max:10 dir:/home/louis/.npm/_logs/2024-04-23T12_39_36_098Z-
+26 verbose logfile /home/louis/.npm/_logs/2024-04-23T12_39_36_098Z-debug-0.log
+27 timing npm:load:logFile Completed in 25ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 79ms
+31 silly logfile start cleaning logs, removing 1 files
+32 timing config:load:flatten Completed in 8ms
+33 timing arborist:ctor Completed in 3ms
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 85ms
+36 timing arborist:ctor Completed in 0ms
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fvscode 533ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 726ms (cache updated)
+39 timing idealTree:userRequests Completed in 776ms
+40 silly idealTree buildDeps
+41 silly fetch manifest @types/vscode@1.88.0
+42 silly fetch manifest @types/node@20.12.7
+43 silly placeDep ROOT @types/node@20.12.7 OK for:  want: 20.12.7
+44 silly placeDep ROOT @types/vscode@1.88.0 OK for:  want: 1.88.0
+45 silly fetch manifest undici-types@~5.26.4
+46 http fetch GET 200 https://registry.npmjs.org/undici-types 57ms (cache updated)
+47 timing idealTree:#root Completed in 94ms
+48 silly placeDep ROOT undici-types@5.26.5 OK for: @types/node@20.12.7 want: ~5.26.4
+49 timing idealTree:node_modules/@types/node Completed in 29ms
+50 timing idealTree:node_modules/@types/vscode Completed in 0ms
+51 timing idealTree:node_modules/undici-types Completed in 0ms
+52 timing idealTree:buildDeps Completed in 133ms
+53 timing idealTree:fixDepFlags Completed in 0ms
+54 timing idealTree Completed in 999ms
+55 timing reify:loadTrees Completed in 1006ms
+56 timing reify:diffTrees Completed in 15ms
+57 silly reify moves {}
+58 timing reify:retireShallow Completed in 14ms
+59 timing reify:createSparse Completed in 2ms
+60 timing reify:loadBundles Completed in 0ms
+61 silly audit bulk request {
+61 silly audit   '@types/object-assign': [ '4.0.33' ],
+61 silly audit   '@types/prop-types': [ '15.7.12' ],
+61 silly audit   '@types/react': [ '18.2.78' ],
+61 silly audit   '@types/react-bootstrap': [ '0.32.36' ],
+61 silly audit   '@types/react-burger-menu': [ '2.8.7' ],
+61 silly audit   '@types/react-dom': [ '18.2.25' ],
+61 silly audit   '@types/react-helmet': [ '6.1.11' ],
+61 silly audit   '@types/react-side-effect': [ '1.1.4' ],
+61 silly audit   csstype: [ '3.1.3' ],
+61 silly audit   'types-registry': [ '0.1.684' ],
+61 silly audit   '@types/node': [ '20.12.7' ],
+61 silly audit   '@types/vscode': [ '1.88.0' ],
+61 silly audit   'undici-types': [ '5.26.5' ]
+61 silly audit }
+62 silly tarball no local data for @types/vscode@https://registry.npmjs.org/@types/vscode/-/vscode-1.88.0.tgz. Extracting by manifest.
+63 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.12.7.tgz. Extracting by manifest.
+64 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 335ms
+65 timing auditReport:getReport Completed in 351ms
+66 silly audit report {}
+67 timing auditReport:init Completed in 0ms
+68 timing reify:audit Completed in 355ms
+69 timing reifyNode:node_modules/undici-types Completed in 423ms
+70 http fetch GET 200 https://registry.npmjs.org/@types/vscode/-/vscode-1.88.0.tgz 424ms (cache miss)
+71 timing reifyNode:node_modules/@types/vscode Completed in 480ms
+72 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.12.7.tgz 588ms (cache miss)
+73 timing reifyNode:node_modules/@types/node Completed in 661ms
+74 timing reify:unpack Completed in 663ms
+75 timing reify:unretire Completed in 0ms
+76 timing build:queue Completed in 9ms
+77 timing build:deps Completed in 17ms
+78 timing build Completed in 18ms
+79 timing reify:build Completed in 31ms
+80 timing reify:trash Completed in 0ms
+81 timing reify:save Completed in 37ms
+82 timing reify Completed in 1831ms
+83 silly ADD node_modules/undici-types
+84 silly ADD node_modules/@types/vscode
+85 silly ADD node_modules/@types/node
+86 timing command:install Completed in 1856ms
+87 verbose exit 0
+88 timing npm Completed in 1989ms
+89 info ok

@@ -1,5 +1,0 @@
-Command failed with exit code 1: php artisan route:list --columns=uri,name,action,method --json
-
-                                          
-  The "--columns" option does not exist.  
-                                          

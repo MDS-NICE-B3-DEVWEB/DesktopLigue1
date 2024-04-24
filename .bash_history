@@ -350,3 +350,113 @@ docker compose build
 docker compose up -d 
 docker compose build react
 docker compose up -d 
+cat/etc/password
+cat
+cat/etc
+ls -ls
+cat/etc/passwrd
+cat/etc/passwd
+ls -etc
+ls - etc
+sudo cat/etc/passwd
+sudo cat /etc/passwd
+docker compose up -d 
+docker compose up 
+docker compose up 
+docker compose up -d
+docker compose build
+docker compose up -d
+cd api_louis
+ls
+ls -l
+cd app
+ls
+cd ..
+ls  -la
+rm .git
+remove .git
+man rm
+rm -r .git
+sudo rm -r .git
+ls -la
+cd ..
+cd ligue1-frontend/
+ls -la
+ls -la
+sudo rm -r .git
+cd src
+ls -la
+cd ..
+git status
+ls -la
+ls -la ~/
+sudo rm -r ~/.git
+git status
+cd ..
+git init
+git add .
+sudo git add .
+git add .
+git add .
+git add .
+cd api_louis
+cd _data/
+ls -la
+sudo rm -r .git
+cd ..
+cd ..
+git add .
+ git commit -m "1er envoi du projet"
+git branch -M main
+git remote add origin https://github.com/MDS-NICE-B3-DEVWEB/Ligue1.git
+git push -u origin main
+ touch ./traefik_data/amce.json && chmod 600 ./traefik_data/amce.json 
+sudo systemctl stop apach2
+docker compose up -d
+dockrooter compose up -d
+root docker compose up -d
+sudo docker compose up -d
+sudo docker compose up -d
+1fK1gb4k
+pwd
+ls -la
+sudo docker compose up -d
+ touch ./traefik_data/acme.json && chmod 600 ./traefik_data/acme.json 
+sudo sytemctl stop apache2
+sudo systemctl stop nginx
+docker compose up -d
+sudo systemctl stop nginx
+sudo sytemctl stop apache2
+sudo systemctl stop apache2
+docker compose up -d
+docker logs react
+docker ps
+docker logs d3166b5aba2c 
+docker logs d3166b5aba2c 
+ docker logs treaefik 
+ docker logs treafik 
+ docker logs traefik 
+docker compose up -d
+docker compose down
+docker compose up -d
+docker compose up -d
+docker compose down
+docker compose up -d
+docker logs traefik
+docker compose up -d
+docker compose down
+docker compose up -d
+docker logs traefik
+docker compose up -d
+docker compose up -d
+docker compose restart react
+docker compose restart react
+docker compose down react
+docker compose up -d
+docker compose build react
+docker compose react
+docker compose down react
+docker compose up -d
+cd ligue1-frontend
+npm install react-helmet
+npm install react-slick slick-carousel

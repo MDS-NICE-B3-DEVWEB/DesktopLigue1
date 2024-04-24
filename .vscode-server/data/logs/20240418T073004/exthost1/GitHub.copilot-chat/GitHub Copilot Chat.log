@@ -35,3 +35,33 @@ Its package.json#enabledApiProposals-property declares: handleIssueUri, interact
 2024-04-18 10:00:32.956 [info] [auth] Logged in as LouisHourlier
 2024-04-18 10:00:33.203 [info] [chat] copilot token chat_enabled: true
 2024-04-18 10:00:33.203 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-18 10:25:33.368 [info] [auth] Logged in as LouisHourlier
+2024-04-18 10:25:33.604 [info] [chat] copilot token chat_enabled: true
+2024-04-18 10:25:33.604 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-18 11:16:34.593 [info] [auth] Logged in as LouisHourlier
+2024-04-18 11:16:35.656 [info] [chat] copilot token chat_enabled: true
+2024-04-18 11:16:35.656 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-18 11:41:56.600 [info] [auth] Logged in as LouisHourlier
+2024-04-18 11:41:57.088 [info] [chat] copilot token chat_enabled: true
+2024-04-18 11:41:57.088 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-18 12:06:57.213 [info] [auth] Logged in as LouisHourlier
+2024-04-18 12:06:57.554 [info] [chat] copilot token chat_enabled: true
+2024-04-18 12:06:57.555 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-18 12:34:56.155 [info] [auth] Logged in as LouisHourlier
+2024-04-18 12:34:57.185 [info] [chat] copilot token chat_enabled: true
+2024-04-18 12:34:57.185 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-18 12:59:58.776 [info] [auth] Logged in as LouisHourlier
+2024-04-18 12:59:59.001 [info] [chat] copilot token chat_enabled: true
+2024-04-18 12:59:59.003 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-18 13:24:59.681 [info] [auth] Logged in as LouisHourlier
+2024-04-18 13:24:59.946 [info] [chat] copilot token chat_enabled: true
+2024-04-18 13:24:59.946 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-18 13:50:00.072 [info] [auth] Logged in as LouisHourlier
+2024-04-18 13:50:00.291 [info] [chat] copilot token chat_enabled: true
+2024-04-18 13:50:00.291 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-18 14:15:00.462 [info] [auth] Logged in as LouisHourlier
+2024-04-18 14:15:00.743 [info] [chat] copilot token chat_enabled: true
+2024-04-18 14:15:00.743 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-18 14:40:00.922 [info] [auth] Logged in as LouisHourlier
+2024-04-18 14:40:01.211 [info] [chat] copilot token chat_enabled: true
+2024-04-18 14:40:01.212 [info] [auth] Got Copilot token for LouisHourlier

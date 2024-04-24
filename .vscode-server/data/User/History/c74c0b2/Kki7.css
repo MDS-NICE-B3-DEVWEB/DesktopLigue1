@@ -1,0 +1,7 @@
+/* HomePage.css */
+
+.containerHome {
+  color: white; /* Texte en blanc */
+  margin: 0 auto; /* Marges automatiques pour centrer le contenu horizontalement */
+  max-width: 75%; /* Largeur maximale du contenu */
+}
