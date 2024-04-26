@@ -1,0 +1,40 @@
+.containerStat {
+    margin: 0 auto; /* Marges automatiques pour centrer le contenu horizontalement */
+    max-width: 75%; /* Largeur maximale du contenu */
+  }
+  
+  .heading {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+  }
+  
+  .playerContainer {
+    display: flex;
+    overflow-x: auto;
+    
+  }
+  
+  .player {
+    flex-shrink: 0;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .playerImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .playerName {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .playerInfo {
+    margin-top: 5px;
+    color: white;
+  }
+  

@@ -460,3 +460,14 @@ docker compose up -d
 cd ligue1-frontend
 npm install react-helmet
 npm install react-slick slick-carousel
+git add .
+git commit -m "ajout de modif dans la HomePage"
+git push
+git add .
+git commit -m "ajout de modif dans les page Login et Register"
+git push
+git push
+git push
+git push
+docker compose down
+docker compose up -d

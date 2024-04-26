@@ -1,0 +1,48 @@
+.containerallteam {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.teamContainer {
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+  background-color: #ffffff; /* Couleur de fond */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre */
+  display
+}
+
+.teamContainer:hover {
+  transform: translateY(-5px);
+}
+
+.teamLogo {
+  width: 100%; /* Pour que le logo soit 100% de la largeur du parent */
+  display: block;
+  margin: 0 auto; /* Centrer horizontalement */
+}
+
+.teamName {
+  text-align: center; /* Centrer le texte horizontalement */
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px; /* Espacement entre le logo et le texte */
+}
+
+@media (max-width: 768px) {
+  .teamContainer {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .teamContainer {
+    width: 100%;
+  }
+}

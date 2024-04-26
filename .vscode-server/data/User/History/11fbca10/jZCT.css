@@ -1,0 +1,30 @@
+/* ResumeVideo.css */
+
+.containerResumeVideo {
+    flex-grow: 1;
+    background-color: #02153C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+.headingResumeVideo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+  
+.videoContainer {
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.videoTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #FFFFFF;
+}

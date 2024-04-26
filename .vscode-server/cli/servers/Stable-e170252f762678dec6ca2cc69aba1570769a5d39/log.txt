@@ -5,21 +5,22 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-74b4fc1f-6f12-42fe-a7e8-ea14cb5d275d
-Extension host agent listening on /tmp/code-74b4fc1f-6f12-42fe-a7e8-ea14cb5d275d
+Server bound to /tmp/code-312cbcdc-37ff-4422-a336-e7321e187f0b
+Extension host agent listening on /tmp/code-312cbcdc-37ff-4422-a336-e7321e187f0b
 
-[07:08:34] 
-
-
+[07:23:50] 
 
 
-[07:08:34] Extension host agent started.
-[07:08:34] [<unknown>][844a3f78][ExtensionHostConnection] New connection established.
-[07:08:34] [<unknown>][e55d1ea5][ManagementConnection] New connection established.
-[07:08:35] [<unknown>][844a3f78][ExtensionHostConnection] <2337751> Launched Extension Host Process.
-[07:08:58] [<unknown>][f90f85ae][ExtensionHostConnection] New connection established.
-[07:08:58] [<unknown>][f90f85ae][ExtensionHostConnection] <2337850> Launched Extension Host Process.
-[07:08:58] [<unknown>][d56f2913][ManagementConnection] New connection established.
+
+
+[07:23:50] Extension host agent started.
+[07:23:50] [<unknown>][811e9a3e][ManagementConnection] New connection established.
+[07:23:50] [<unknown>][2f93976a][ExtensionHostConnection] New connection established.
+[07:23:50] Deleted uninstalled extension from disk github.copilot /home/louis/.vscode-server/extensions/github.copilot-1.181.0
+[07:23:50] [<unknown>][2f93976a][ExtensionHostConnection] <2408653> Launched Extension Host Process.
+[07:24:05] [<unknown>][e57886c4][ManagementConnection] New connection established.
+[07:24:05] [<unknown>][bc3c11aa][ExtensionHostConnection] New connection established.
+[07:24:05] [<unknown>][bc3c11aa][ExtensionHostConnection] <2408759> Launched Extension Host Process.
 rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
 stack trace: CodeExpectedError: Could not find pty on pty host
     at D.U (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
@@ -35,7 +36,7 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:517:28)
     at emit (node:internal/child_process:944:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[07:09:01] Error [CodeExpectedError]: Could not find pty on pty host
+[07:24:07] Error [CodeExpectedError]: Could not find pty on pty host
     at D.U (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
     at D.updateTitle (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
     at j.<computed> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
@@ -49,3 +50,11 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:517:28)
     at emit (node:internal/child_process:944:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[07:24:10] Getting Manifest... github.copilot
+[07:24:10] Installing extension: github.copilot
+[07:24:16] Extension signature is verified: github.copilot
+[07:24:17] Extracted extension to file:///home/louis/.vscode-server/extensions/github.copilot-1.184.0: github.copilot
+[07:24:17] Renamed to /home/louis/.vscode-server/extensions/github.copilot-1.184.0
+[07:24:17] Extracting extension completed. github.copilot
+[07:24:17] Extension installed successfully: github.copilot
+[07:24:17] Marked extension as uninstalled github.copilot-1.182.0

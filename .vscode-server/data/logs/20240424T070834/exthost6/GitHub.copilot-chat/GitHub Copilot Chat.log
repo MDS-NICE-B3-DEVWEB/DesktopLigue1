@@ -1,0 +1,120 @@
+2024-04-24 13:45:15.880 [info] [FetcherService] Using Helix fetcher
+2024-04-24 13:45:15.882 [info] [gitExtensionService] Initializing Git extension service.
+2024-04-24 13:45:15.883 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-04-24 13:45:15.884 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-04-24 13:45:15.885 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-04-24 13:45:20.740 [info] [auth] Logged in as LouisHourlier
+2024-04-24 13:45:24.271 [info] [chat] copilot token chat_enabled: true
+2024-04-24 13:45:24.272 [info] [chat] Registration of interactive providers failed:,Error: Extension 'GitHub.copilot-chat' CANNOT use API proposal: aiTextSearchProvider.
+Its package.json#enabledApiProposals-property declares: handleIssueUri, interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver but NOT aiTextSearchProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.copilot-chat
+2024-04-24 13:45:24.272 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-04-24 13:45:24.272 [info] [githubTitleAndDescriptionProvider] GitHub.vscode-pull-request-github extension is not yet activated.
+2024-04-24 13:45:24.393 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-24 14:11:41.467 [info] [auth] Logged in as LouisHourlier
+2024-04-24 14:11:42.134 [info] [chat] copilot token chat_enabled: true
+2024-04-24 14:11:42.135 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-24 14:36:42.944 [info] [auth] Logged in as LouisHourlier
+2024-04-24 14:36:43.484 [info] [chat] copilot token chat_enabled: true
+2024-04-24 14:36:43.485 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-24 14:51:00.537 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-24 14:51:00.537 [info] [chat fetch] modelMaxPromptTokens 3072
+2024-04-24 14:51:00.538 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-24 14:51:00.538 [info] [chat fetch] chat model gpt-4
+2024-04-24 14:51:01.053 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 510 ms
+2024-04-24 14:51:01.057 [info] [chat fetch] Request ID for failed request: ,9c9c56c9-fdd9-4666-bbd7-7fd6423d3818
+2024-04-24 14:51:01.061 [info] [chat fetch] Unhandled status from server:,400,bad request: no user message, only message was a "system" message
+
+2024-04-24 14:51:07.357 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-24 14:51:07.358 [info] [chat fetch] modelMaxPromptTokens 3072
+2024-04-24 14:51:07.359 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-24 14:51:07.359 [info] [chat fetch] chat model gpt-4
+2024-04-24 14:51:07.485 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 123 ms
+2024-04-24 14:51:07.486 [info] [chat fetch] Request ID for failed request: ,1d040133-3d81-4ff3-9a63-b396e3f110b1
+2024-04-24 14:51:07.488 [info] [chat fetch] Unhandled status from server:,400,bad request: no user message, only message was a "system" message
+
+2024-04-24 14:51:10.353 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-24 14:51:10.354 [info] [chat fetch] modelMaxPromptTokens 3072
+2024-04-24 14:51:10.354 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-24 14:51:10.355 [info] [chat fetch] chat model gpt-4
+2024-04-24 14:51:10.501 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 144 ms
+2024-04-24 14:51:10.504 [info] [chat fetch] Request ID for failed request: ,8f24d7e2-7893-49ad-a14e-e4e1dff4a8ba
+2024-04-24 14:51:10.506 [info] [chat fetch] Unhandled status from server:,400,bad request: no user message, only message was a "system" message
+
+2024-04-24 14:51:18.149 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-24 14:51:18.149 [info] [chat fetch] modelMaxPromptTokens 3072
+2024-04-24 14:51:18.150 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-24 14:51:18.150 [info] [chat fetch] chat model gpt-4
+2024-04-24 14:51:18.320 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 169 ms
+2024-04-24 14:51:18.322 [info] [chat fetch] Request ID for failed request: ,b955522f-5075-4f8b-b751-feab91eedde7
+2024-04-24 14:51:18.325 [info] [chat fetch] Unhandled status from server:,400,bad request: no user message, only message was a "system" message
+
+2024-04-24 14:51:19.111 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-24 14:51:19.112 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-04-24 14:51:19.113 [info] [chat fetch] modelMaxResponseTokens 3648
+2024-04-24 14:51:19.113 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-04-24 14:51:20.067 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 951 ms
+2024-04-24 14:51:21.291 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-24 14:51:21.294 [info] [streamChoices] request done: requestId: [29d1856e-6335-4214-9d4f-3e62c23b8c46] responseId: [29d1856e-6335-4214-9d4f-3e62c23b8c46] model deployment ID: []
+2024-04-24 14:51:37.623 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-24 14:51:37.627 [info] [chat fetch] modelMaxPromptTokens 3072
+2024-04-24 14:51:37.628 [info] [chat fetch] modelMaxResponseTokens 3291
+2024-04-24 14:51:37.629 [info] [chat fetch] chat model gpt-4
+2024-04-24 14:51:40.099 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 2468 ms
+2024-04-24 14:51:40.678 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-24 14:51:40.685 [info] [streamChoices] request done: requestId: [1b92e2c9-2e4c-4e60-b878-4c0a04aac166] responseId: [1b92e2c9-2e4c-4e60-b878-4c0a04aac166] model deployment ID: []
+2024-04-24 14:51:40.747 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-24 14:51:40.748 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-04-24 14:51:40.749 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-24 14:51:40.750 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-04-24 14:51:41.259 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 506 ms
+2024-04-24 14:51:41.310 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-24 14:51:41.313 [info] [streamChoices] request done: requestId: [33747472-3fa0-4e64-88c2-39bd16cd8bea] responseId: [33747472-3fa0-4e64-88c2-39bd16cd8bea] model deployment ID: []
+2024-04-24 14:51:42.852 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-24 14:51:42.853 [info] [chat fetch] modelMaxPromptTokens 3072
+2024-04-24 14:51:42.853 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-24 14:51:42.853 [info] [chat fetch] chat model gpt-4
+2024-04-24 14:51:43.004 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 149 ms
+2024-04-24 14:51:43.007 [info] [chat fetch] Request ID for failed request: ,857a10fc-b3be-4d58-b630-d1b4df14021a
+2024-04-24 14:51:43.011 [info] [chat fetch] Unhandled status from server:,400,bad request: no user message, only message was a "system" message
+
+2024-04-24 14:51:56.494 [info] [extension] Error: Response stream has been closed
+    at Object.push (/home/louis/.vscode-server/extensions/github.copilot-chat-0.14.1/dist/extension.js:855:1665)
+    at Object.report (/home/louis/.vscode-server/extensions/github.copilot-chat-0.14.1/dist/extension.js:857:758)
+    at aE._provideResponseWithProgress (/home/louis/.vscode-server/extensions/github.copilot-chat-0.14.1/dist/extension.js:857:918)
+    at aE.provideResponseWithProgress (/home/louis/.vscode-server/extensions/github.copilot-chat-0.14.1/dist/extension.js:855:1830)
+    at r.x (/home/louis/.vscode-server/extensions/github.copilot-chat-0.14.1/dist/extension.js:869:859)
+2024-04-24 14:51:59.552 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-24 14:51:59.553 [info] [chat fetch] modelMaxPromptTokens 3072
+2024-04-24 14:51:59.554 [info] [chat fetch] modelMaxResponseTokens 2789
+2024-04-24 14:51:59.554 [info] [chat fetch] chat model gpt-4
+2024-04-24 14:52:02.432 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 2875 ms
+2024-04-24 14:52:10.178 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-24 14:52:10.181 [info] [streamChoices] request done: requestId: [336546a3-e5ac-4664-bc5a-02335ededcb8] responseId: [336546a3-e5ac-4664-bc5a-02335ededcb8] model deployment ID: []
+2024-04-24 14:52:10.257 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-24 14:52:10.258 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-04-24 14:52:10.258 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-24 14:52:10.259 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-04-24 14:52:10.717 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 456 ms
+2024-04-24 14:52:10.740 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-24 14:52:10.742 [info] [streamChoices] request done: requestId: [52de8843-2293-4a54-8e08-0384120848bb] responseId: [52de8843-2293-4a54-8e08-0384120848bb] model deployment ID: []
+2024-04-24 14:59:44.010 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-24 14:59:44.011 [info] [chat fetch] modelMaxPromptTokens 3072
+2024-04-24 14:59:44.011 [info] [chat fetch] modelMaxResponseTokens 3271
+2024-04-24 14:59:44.011 [info] [chat fetch] chat model gpt-4
+2024-04-24 14:59:45.802 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1789 ms
+2024-04-24 15:00:08.412 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-24 15:00:08.414 [info] [streamChoices] request done: requestId: [245c6f7a-964b-43b4-81cd-75aa02fc09d7] responseId: [245c6f7a-964b-43b4-81cd-75aa02fc09d7] model deployment ID: []
+2024-04-24 15:00:08.476 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-24 15:00:08.477 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-04-24 15:00:08.477 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-24 15:00:08.478 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-04-24 15:00:09.517 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1036 ms
+2024-04-24 15:00:09.672 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-24 15:00:09.674 [info] [streamChoices] request done: requestId: [95566b5e-72e0-402b-8880-d69269fe8cc8] responseId: [95566b5e-72e0-402b-8880-d69269fe8cc8] model deployment ID: []
+2024-04-24 15:01:43.575 [info] [auth] Logged in as LouisHourlier
+2024-04-24 15:01:44.073 [info] [chat] copilot token chat_enabled: true
+2024-04-24 15:01:44.073 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-24 15:26:44.160 [info] [auth] Logged in as LouisHourlier
+2024-04-24 15:26:44.638 [info] [chat] copilot token chat_enabled: true
+2024-04-24 15:26:44.639 [info] [auth] Got Copilot token for LouisHourlier

@@ -10,6 +10,8 @@ import RegisterForm from '../components/forms/RegisterForm/RegisterForm';
 import Match from '../pages/Match/Match';
 import ShowEquipe from '../pages/ShowEquipe/ShowEquipe'; // Importez le composant ShowEquipe
 import ShowPlayer from '../pages/ShowPlayer/ShowPlayer'; // Importez le composant ShowPlayer
+import TopPlayer from '../pages/TopPlayer/TopPlayer';
+import ResumeVideo from '../pages/ResumeVideo/ResumeVideo';
 import User from '../pages/User/User';
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
         <Route path="/register" element={<RegisterForm />} />
         <Route path="/user" element={<User />} />
         <Route path="/match" element={<Match />} />
+        <Route path="/topplayer" element={<TopPlayer />} />
+        <Route path="/resumevideo" element={<ResumeVideo />} />
         {/* Utilisez ShowEquipe avec l'ID de l'URL */}
         <Route path="/ShowEquipe/:id" element={<ShowEquipe />} /> 
         <Route path="/ShowPlayer/:id" element={<ShowPlayer />} />

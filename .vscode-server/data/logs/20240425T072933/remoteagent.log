@@ -1,0 +1,26 @@
+2024-04-25 07:29:33.265 [info] 
+
+
+
+
+2024-04-25 07:29:33.282 [info] Extension host agent started.
+2024-04-25 07:29:33.456 [info] [<unknown>][dd720432][ManagementConnection] New connection established.
+2024-04-25 07:29:33.458 [info] [<unknown>][8862f27d][ExtensionHostConnection] New connection established.
+2024-04-25 07:29:33.588 [info] [<unknown>][8862f27d][ExtensionHostConnection] <2385558> Launched Extension Host Process.
+2024-04-25 07:29:38.930 [info] Getting Manifest... github.copilot
+2024-04-25 07:29:39.056 [info] Installing extension: github.copilot
+2024-04-25 07:29:45.655 [info] Extension signature is verified: github.copilot
+2024-04-25 07:29:46.514 [info] Extracted extension to file:///home/louis/.vscode-server/extensions/github.copilot-1.182.0: github.copilot
+2024-04-25 07:29:46.524 [info] Renamed to /home/louis/.vscode-server/extensions/github.copilot-1.182.0
+2024-04-25 07:29:46.528 [info] Extracting extension completed. github.copilot
+2024-04-25 07:29:46.542 [info] Extension installed successfully: github.copilot
+2024-04-25 07:29:46.552 [info] Marked extension as uninstalled github.copilot-1.181.0
+2024-04-25 07:29:46.884 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/louis/.vscode-server/data/logs/20240405T071333/exthost4/GitHub.copilot-chat' failed: No such file or directory (EUNKNOWN) (path: /home/louis)
+2024-04-25 07:29:46.885 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/louis/.vscode-server/data/logs/20240405T071333/exthost4/GitHub.copilot-chat' failed: No such file or directory
+2024-04-25 07:34:33.283 [info] New EH opened, aborting shutdown
+2024-04-25 13:18:41.898 [info] [<unknown>][8862f27d][ExtensionHostConnection] <2385558> Extension Host Process exited with code: 0, signal: null.
+2024-04-25 13:18:41.902 [info] Last EH closed, waiting before shutting down
+2024-04-25 13:18:41.903 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:191:6058)
+    at process.emit (node:events:517:28)
+2024-04-25 13:23:41.904 [info] Last EH closed, shutting down

@@ -1,0 +1,46 @@
+.containerallteam {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.teamContainer {
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.teamContainer:hover {
+  transform: translateY(-5px);
+}
+
+.teamLogo {
+  width: 100%;
+}
+
+.teamName {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .teamContainer {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .teamContainer {
+    width: 100%;
+  }
+}

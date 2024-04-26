@@ -1,0 +1,18 @@
+2024-04-26 07:24:06.909 [info] Extension host with pid 2408759 started
+2024-04-26 07:24:06.973 [info] Lock '/home/louis/.vscode-server/data/User/workspaceStorage/7ec64f663a47cb7c917920648c296816/vscode.lock': Lock acquired.
+2024-04-26 07:24:07.089 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-04-26 07:24:07.093 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-26 07:24:08.096 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-26 07:24:08.097 [info] ExtensionService#_doActivateExtension akhail.save-typing, startup: true, activationEvent: '*'
+2024-04-26 07:24:08.122 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-04-26 07:24:08.261 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-26 07:24:08.262 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-26 07:24:09.046 [info] ExtensionService#_doActivateExtension ryannaddy.laravel-artisan, startup: true, activationEvent: 'workspaceContains:**/artisan'
+2024-04-26 07:24:11.734 [warning] [Decorations] CAPPING events from decorations provider vscode.git 607
+2024-04-26 07:24:12.686 [info] Eager extensions activated
+2024-04-26 07:24:12.687 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-26 07:24:12.692 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-26 07:24:12.693 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-04-26 07:24:12.693 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-04-26 07:24:14.975 [warning] [Decorations] CAPPING events from decorations provider vscode.git 609
+2024-04-26 07:24:23.632 [warning] [Decorations] CAPPING events from decorations provider vscode.git 660
