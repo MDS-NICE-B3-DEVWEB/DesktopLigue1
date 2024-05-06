@@ -1,0 +1,56 @@
+2024-05-06 07:18:29.004 [info] 
+
+
+
+
+2024-05-06 07:18:29.030 [info] Extension host agent started.
+2024-05-06 07:18:29.194 [info] [<unknown>][9e75b951][ExtensionHostConnection] New connection established.
+2024-05-06 07:18:29.196 [info] [<unknown>][1b016634][ManagementConnection] New connection established.
+2024-05-06 07:18:29.393 [info] [<unknown>][9e75b951][ExtensionHostConnection] <2722849> Launched Extension Host Process.
+2024-05-06 07:18:34.696 [info] Getting Manifest... github.copilot
+2024-05-06 07:18:34.696 [info] Getting Manifest... ms-azuretools.vscode-docker
+2024-05-06 07:18:34.727 [info] Installing extension: ms-azuretools.vscode-docker
+2024-05-06 07:18:34.861 [info] Installing extension: github.copilot
+2024-05-06 07:18:38.662 [info] Extension signature is verified: github.copilot
+2024-05-06 07:18:38.770 [info] Extension signature is verified: ms-azuretools.vscode-docker
+2024-05-06 07:18:39.124 [info] Extracted extension to file:///home/louis/.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.1: ms-azuretools.vscode-docker
+2024-05-06 07:18:39.171 [info] Renamed to /home/louis/.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.1
+2024-05-06 07:18:39.206 [info] Extracting extension completed. ms-azuretools.vscode-docker
+2024-05-06 07:18:39.223 [info] Extension installed successfully: ms-azuretools.vscode-docker
+2024-05-06 07:18:39.251 [info] Marked extension as uninstalled ms-azuretools.vscode-docker-1.29.0
+2024-05-06 07:18:39.529 [info] Extracted extension to file:///home/louis/.vscode-server/extensions/github.copilot-1.186.0: github.copilot
+2024-05-06 07:18:39.541 [info] Renamed to /home/louis/.vscode-server/extensions/github.copilot-1.186.0
+2024-05-06 07:18:39.543 [info] Extracting extension completed. github.copilot
+2024-05-06 07:18:39.557 [info] Extension installed successfully: github.copilot
+2024-05-06 07:18:39.563 [info] Marked extension as uninstalled github.copilot-1.184.0
+2024-05-06 07:18:52.494 [info] [<unknown>][4294a336][ExtensionHostConnection] New connection established.
+2024-05-06 07:18:52.514 [info] [<unknown>][4294a336][ExtensionHostConnection] <2722976> Launched Extension Host Process.
+2024-05-06 07:18:52.518 [info] [<unknown>][bcf59783][ManagementConnection] New connection established.
+2024-05-06 07:18:58.411 [info] Getting Manifest... github.copilot-chat
+2024-05-06 07:18:58.458 [info] Installing extension: github.copilot-chat
+2024-05-06 07:19:04.036 [info] Extension signature is verified: github.copilot-chat
+2024-05-06 07:19:04.570 [info] Extracted extension to file:///home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0: github.copilot-chat
+2024-05-06 07:19:04.604 [info] Renamed to /home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0
+2024-05-06 07:19:04.609 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 07:19:04.616 [info] Extracting extension completed. github.copilot-chat
+2024-05-06 07:19:04.642 [info] Extension installed successfully: github.copilot-chat
+2024-05-06 07:23:29.033 [info] New EH opened, aborting shutdown
+2024-05-06 07:23:29.035 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:191:6058)
+    at process.emit (node:events:517:28)
+2024-05-06 07:23:52.720 [info] [<unknown>][9e75b951][ExtensionHostConnection] <2722849> Extension Host Process exited with code: 0, signal: null.
+2024-05-06 07:24:06.803 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 07:30:06.815 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 07:36:06.774 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 07:41:06.941 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 07:47:06.779 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 07:53:03.679 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 07:58:03.831 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 08:03:04.795 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 08:08:05.840 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 08:13:05.984 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 08:18:06.172 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 08:24:06.752 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 08:30:06.759 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 08:36:06.744 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+2024-05-06 08:42:06.748 [error] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.

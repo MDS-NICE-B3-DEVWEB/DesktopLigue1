@@ -1,0 +1,9 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "remote.SSH.remotePlatform": {
+        "louis@164.90.163.120": "linux",
+        "mds.ligue1.live": "linux",
+        "164.90.163.120": "linux"
+    }
+}

@@ -1,0 +1,107 @@
+2024-04-30 06:57:50.743 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
+2024-04-30 06:57:50.757 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
+2024-04-30 06:57:50.765 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
+2024-04-30 06:57:50.779 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2024-04-30 09:11:46.482 [info] Expanding terminal instance, old id 4fc85d8787b7a6c2dcacbada8454c0e1-6 -> new id undefined
+2024-04-30 09:11:48.519 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
+2024-04-30 09:11:48.540 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
+2024-04-30 09:11:48.552 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
+2024-04-30 09:11:48.565 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2024-04-30 09:11:50.472 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
+2024-04-30 09:11:50.478 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
+2024-04-30 09:11:50.514 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
+2024-04-30 09:11:50.554 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2024-04-30 09:11:51.604 [warning] Persistent process "6": Process had no disconnect runners but was an orphan
+2024-04-30 09:11:51.604 [info] Persistent process reconnection "6"
+2024-04-30 09:11:52.275 [info] Persistent process "6": Replaying 24 chars and 1 size events
+2024-04-30 09:46:07.059 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 09:46:07.061 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 09:46:07.061 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 09:46:07.063 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 09:46:08.282 [info] Expanding terminal instance, old id 4fc85d8787b7a6c2dcacbada8454c0e1-6 -> new id undefined
+2024-04-30 09:46:09.811 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
+2024-04-30 09:46:09.821 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
+2024-04-30 09:46:09.834 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
+2024-04-30 09:46:09.840 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2024-04-30 09:46:11.910 [warning] Persistent process "6": Process had no disconnect runners but was an orphan
+2024-04-30 09:46:11.910 [info] Persistent process reconnection "6"
+2024-04-30 09:46:12.284 [info] Persistent process "6": Replaying 24 chars and 1 size events
+2024-04-30 11:23:17.354 [info] Expanding terminal instance, old id 4fc85d8787b7a6c2dcacbada8454c0e1-6 -> new id undefined
+2024-04-30 11:23:19.262 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n\tfi\nfi\nexit 0"]
+2024-04-30 11:23:19.275 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n\tfi\nfi\nexit 0"]
+2024-04-30 11:23:19.287 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n\tfi\nfi\nexit 0"]
+2024-04-30 11:23:19.298 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
+2024-04-30 11:23:20.176 [warning] Persistent process "6": Process had no disconnect runners but was an orphan
+2024-04-30 11:23:20.176 [info] Persistent process reconnection "6"
+2024-04-30 11:23:20.291 [info] Persistent process "6": Replaying 24 chars and 1 size events
+2024-04-30 11:23:30.057 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:23:30.058 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.704 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:57.709 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.709 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.709 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:57.709 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.709 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.748 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:57.756 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.772 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.872 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:57.874 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.880 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.882 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:57.939 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.941 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.946 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:57.947 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.948 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.949 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:57.954 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.955 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:57.966 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:57.989 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.006 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.082 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:58.098 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.107 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.115 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:58.141 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.142 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.143 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:58.147 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.150 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.155 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:58.159 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.171 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.177 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:58.194 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.195 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.202 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:58.208 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.218 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.226 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:58.240 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.260 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.274 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:58.279 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.281 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.282 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:58.283 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.284 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.285 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:58.286 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.293 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.294 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:58.309 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.313 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.314 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:31:58.325 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:31:58.327 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:32:02.756 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:32:02.761 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:32:02.890 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:32:02.893 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:32:02.896 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:32:04.866 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:32:04.870 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-04-30 11:32:17.434 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-04-30 11:32:17.436 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host

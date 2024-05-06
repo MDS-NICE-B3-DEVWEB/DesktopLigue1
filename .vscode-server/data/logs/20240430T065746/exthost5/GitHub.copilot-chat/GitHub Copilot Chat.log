@@ -1,0 +1,64 @@
+2024-04-30 11:23:32.436 [info] [FetcherService] Using Helix fetcher
+2024-04-30 11:23:32.436 [info] [gitExtensionService] Initializing Git extension service.
+2024-04-30 11:23:32.436 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-04-30 11:23:32.437 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-04-30 11:23:32.437 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-04-30 11:23:35.522 [info] [auth] Logged in as LouisHourlier
+2024-04-30 11:23:37.187 [info] [chat] copilot token chat_enabled: true
+2024-04-30 11:23:37.187 [info] [chat] Registration of interactive providers failed:,Error: Extension 'GitHub.copilot-chat' CANNOT use API proposal: aiTextSearchProvider.
+Its package.json#enabledApiProposals-property declares: handleIssueUri, interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver but NOT aiTextSearchProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.copilot-chat
+2024-04-30 11:23:37.188 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-04-30 11:23:37.188 [info] [githubTitleAndDescriptionProvider] GitHub.vscode-pull-request-github extension is not yet activated.
+2024-04-30 11:23:37.250 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 11:48:37.380 [info] [auth] Logged in as LouisHourlier
+2024-04-30 11:48:37.634 [info] [chat] copilot token chat_enabled: true
+2024-04-30 11:48:37.635 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 12:13:37.802 [info] [auth] Logged in as LouisHourlier
+2024-04-30 12:13:38.055 [info] [chat] copilot token chat_enabled: true
+2024-04-30 12:13:38.056 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 12:38:38.136 [info] [auth] Logged in as LouisHourlier
+2024-04-30 12:38:38.371 [info] [chat] copilot token chat_enabled: true
+2024-04-30 12:38:38.372 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 13:03:38.453 [info] [auth] Logged in as LouisHourlier
+2024-04-30 13:03:38.719 [info] [chat] copilot token chat_enabled: true
+2024-04-30 13:03:38.720 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 13:28:38.834 [info] [auth] Logged in as LouisHourlier
+2024-04-30 13:28:39.252 [info] [chat] copilot token chat_enabled: true
+2024-04-30 13:28:39.253 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 13:53:40.029 [info] [auth] Logged in as LouisHourlier
+2024-04-30 13:53:40.290 [info] [chat] copilot token chat_enabled: true
+2024-04-30 13:53:40.291 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 14:18:40.623 [info] [auth] Logged in as LouisHourlier
+2024-04-30 14:18:40.864 [info] [chat] copilot token chat_enabled: true
+2024-04-30 14:18:40.865 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 14:43:41.260 [info] [auth] Logged in as LouisHourlier
+2024-04-30 14:43:41.492 [info] [chat] copilot token chat_enabled: true
+2024-04-30 14:43:41.493 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 15:08:42.468 [info] [auth] Logged in as LouisHourlier
+2024-04-30 15:08:42.731 [info] [chat] copilot token chat_enabled: true
+2024-04-30 15:08:42.732 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 15:33:43.043 [info] [auth] Logged in as LouisHourlier
+2024-04-30 15:33:43.285 [info] [chat] copilot token chat_enabled: true
+2024-04-30 15:33:43.286 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 15:58:43.631 [info] [auth] Logged in as LouisHourlier
+2024-04-30 15:58:43.865 [info] [chat] copilot token chat_enabled: true
+2024-04-30 15:58:43.865 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 16:23:44.648 [info] [auth] Logged in as LouisHourlier
+2024-04-30 16:23:44.985 [info] [chat] copilot token chat_enabled: true
+2024-04-30 16:23:44.986 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 16:48:45.347 [info] [auth] Logged in as LouisHourlier
+2024-04-30 16:48:45.577 [info] [chat] copilot token chat_enabled: true
+2024-04-30 16:48:45.578 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 17:13:45.695 [info] [auth] Logged in as LouisHourlier
+2024-04-30 17:13:46.253 [info] [chat] copilot token chat_enabled: true
+2024-04-30 17:13:46.253 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 17:38:47.079 [info] [auth] Logged in as LouisHourlier
+2024-04-30 17:38:47.344 [info] [chat] copilot token chat_enabled: true
+2024-04-30 17:38:47.344 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 18:03:47.655 [info] [auth] Logged in as LouisHourlier
+2024-04-30 18:03:47.915 [info] [chat] copilot token chat_enabled: true
+2024-04-30 18:03:47.916 [info] [auth] Got Copilot token for LouisHourlier
+2024-04-30 18:28:48.297 [info] [auth] Logged in as LouisHourlier
+2024-04-30 18:28:48.527 [info] [chat] copilot token chat_enabled: true
+2024-04-30 18:28:48.528 [info] [auth] Got Copilot token for LouisHourlier

@@ -1,0 +1,14 @@
+2024-04-30 09:46:26.571 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-30 09:46:26.571 [info] [code-referencing] Public code references are enabled.
+2024-04-30 09:46:26.572 [info] [auth] Sucessfully authenticated
+2024-04-30 09:56:34.975 [error] [default] Error sending telemetry FetchError: Stream closed with error code NGHTTP2_INTERNAL_ERROR
+    at fetch (/home/louis/.vscode-server/extensions/github.copilot-1.184.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/louis/.vscode-server/extensions/github.copilot-1.184.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at WU.fetch (/home/louis/.vscode-server/extensions/github.copilot-1.184.0/lib/src/network/helix.ts:78:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_ERROR',
+  errno: undefined,
+  erroredSysCall: undefined
+}

@@ -1,0 +1,99 @@
+/* Match.css */
+
+.containerMatch {
+  flex: 1;
+ 
+}
+
+.topSection {
+  height: 20px;
+  background-color: #02153c;
+}
+
+.matchdayButtonsContainer {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.matchdayButtonsContainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+.matchdayButtonsContainer::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.matchesScrollViewContainer {
+  overflow-x: auto;
+}
+
+.matchdayButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #ffffff;
+  background-color: #2a75f3;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.matchdayButton:hover {
+  background-color: #1e5dd8;
+}
+
+.selectedMatchdayButton {
+  background-color: #4f8df6;
+}
+
+.matchdayText {
+  color: #ffffff;
+}
+
+.matchesContainer {
+  max-width: 75%; /* Largeur maximale du contenu */
+  margin: 0 auto; /* Marges automatiques pour centrer le contenu horizontalement */
+  padding: 20px;
+}
+
+.matchContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.teamContainerMatch {
+  display: flex;
+  flex-direction: column; /* Affichage en colonne pour le logo et le nom */
+  align-items: center; /* Centrage horizontal */
+}
+
+.teamLogoMatch {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 5px; /* Espacement entre le logo et le nom */
+}
+
+.teamNameMatch {
+  font-size: 16px;
+  color:#fff ;
+  text-align: center; /* Centrage horizontal du nom */
+}
+
+.scoreContainerMatch {
+  display: flex;
+  align-items: center;
+}
+
+.scoreText {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 10px;
+  color: #fff ;
+}

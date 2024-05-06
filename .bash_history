@@ -471,3 +471,9 @@ git push
 git push
 docker compose down
 docker compose up -d
+git add .
+git add .
+git commit -m "Ajout de Résumé Vidéo et Meilleur Joueur et modification de style"
+git push
+docker compose down
+docker compose up -d
