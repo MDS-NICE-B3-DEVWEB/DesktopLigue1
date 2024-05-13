@@ -7,6 +7,7 @@ import './LoginForm.css'; // Importez votre fichier CSS
 const LoginForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [points, setPoints] = useState(''); // Ajoutez cette ligne
   const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate();
 
@@ -17,6 +18,11 @@ const LoginForm = () => {
       const response = await login(user);
       console.log(response);
       if (response.status_code === 200) {
+        // Stocker l'access_token dans le localStorage
+        localStorage.setItem('access_token', response.access_token);
+        localStorage.setItem('name', response.user.name);
+        localStorage.setItem('email', response.user.email);
+        localStorage.setItem('points', response.user.points); // Ajoutez cette ligne
         navigate('/');
       } else {
         setErrorMessage(response.message);

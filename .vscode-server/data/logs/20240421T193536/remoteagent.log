@@ -1,9 +1,0 @@
-2024-04-21 19:35:36.291 [info] 
-
-
-
-
-2024-04-21 19:35:36.309 [info] Extension host agent started.
-2024-04-21 19:35:36.428 [error] [<unknown>][f6669fb0][ManagementConnection] Unknown reconnection token (never seen).
-2024-04-21 19:35:36.468 [error] [<unknown>][c36db689][ExtensionHostConnection] Unknown reconnection token (never seen).
-2024-04-21 19:40:36.315 [info] Last EH closed, shutting down

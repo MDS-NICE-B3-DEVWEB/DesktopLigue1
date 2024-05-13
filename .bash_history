@@ -477,3 +477,12 @@ git commit -m "Ajout de Résumé Vidéo et Meilleur Joueur et modification de st
 git push
 docker compose down
 docker compose up -d
+cd api_louis
+cd ..
+ssh 164.90.163.120 louis@www.ligue1.live
+git add .
+git commit -m "Modification bdd"
+git push
+git add .
+docker compose down
+docker compose up -d

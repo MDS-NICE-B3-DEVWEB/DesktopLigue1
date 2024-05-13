@@ -1,0 +1,28 @@
+2024-05-07 07:15:26.481 [info] 
+
+
+
+
+2024-05-07 07:15:26.502 [info] Extension host agent started.
+2024-05-07 07:15:26.639 [info] [<unknown>][bfdb5135][ExtensionHostConnection] New connection established.
+2024-05-07 07:15:26.693 [info] [<unknown>][6d21e6d0][ManagementConnection] New connection established.
+2024-05-07 07:15:26.811 [info] Deleted uninstalled extension from disk github.copilot /home/louis/.vscode-server/extensions/github.copilot-1.184.0
+2024-05-07 07:15:26.812 [info] Deleted uninstalled extension from disk ms-azuretools.vscode-docker /home/louis/.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.0
+2024-05-07 07:15:26.865 [info] [<unknown>][bfdb5135][ExtensionHostConnection] <2760068> Launched Extension Host Process.
+2024-05-07 07:15:33.237 [info] Getting Manifest... github.copilot
+2024-05-07 07:15:33.294 [info] Installing extension: github.copilot
+2024-05-07 07:15:42.712 [info] Extension signature verification result for github.copilot: Success. Duration: 7279ms.
+2024-05-07 07:15:43.912 [info] Extracted extension to file:///home/louis/.vscode-server/extensions/github.copilot-1.187.0: github.copilot
+2024-05-07 07:15:43.929 [info] Renamed to /home/louis/.vscode-server/extensions/github.copilot-1.187.0
+2024-05-07 07:15:43.932 [info] Extracting extension completed. github.copilot
+2024-05-07 07:15:43.951 [info] Extension installed successfully: github.copilot
+2024-05-07 07:15:43.966 [info] Marked extension as uninstalled github.copilot-1.186.0
+2024-05-07 07:15:47.489 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/louis/.vscode-server/data/logs/20240421T133005/exthost2/output_logging_20240421T152720' failed: No such file or directory (EUNKNOWN) (path: /home/louis)
+2024-05-07 07:15:47.490 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/louis/.vscode-server/data/logs/20240421T133005/exthost2/output_logging_20240421T152720' failed: No such file or directory
+2024-05-07 07:20:26.503 [info] New EH opened, aborting shutdown
+2024-05-07 11:47:43.096 [info] [<unknown>][bfdb5135][ExtensionHostConnection] <2760068> Extension Host Process exited with code: 0, signal: null.
+2024-05-07 11:47:43.099 [info] Last EH closed, waiting before shutting down
+2024-05-07 11:47:43.101 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/server/node/server.main.js:189:6057)
+    at process.emit (node:events:517:28)
+2024-05-07 11:52:43.101 [info] Last EH closed, shutting down

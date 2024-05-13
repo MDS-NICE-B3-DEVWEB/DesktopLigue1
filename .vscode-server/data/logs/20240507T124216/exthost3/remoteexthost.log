@@ -1,0 +1,73 @@
+2024-05-07 13:14:59.661 [info] Extension host with pid 2774609 started
+2024-05-07 13:14:59.796 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-07 13:14:59.936 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-07 13:14:59.938 [info] ExtensionService#_doActivateExtension akhail.save-typing, startup: true, activationEvent: '*'
+2024-05-07 13:15:00.025 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-07 13:15:00.026 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-07 13:15:00.778 [info] Eager extensions activated
+2024-05-07 13:15:00.780 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 13:15:00.781 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 13:15:00.782 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 13:15:00.783 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 13:15:14.088 [error] Error: [ExtensionListenerError] Extension 'akhail.save-typing' FAILED to handle event: TypeError: Cannot read properties of undefined (reading 'document')
+    at a.value (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:165:20680)
+    at o.y (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at P.$acceptModelChanged (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:155:75622)
+    at c.S (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:152:5505)
+    at c.Q (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:152:5271)
+    at c.M (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4361)
+    at c.L (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:152:3440)
+    at a.value (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2227)
+    at o.y (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at l.fire (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at a.value (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:178:8023)
+    at o.y (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at l.fire (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+    at o.y (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at /home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:107:11236
+    at Socket.S (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:175:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2024-05-07 13:15:14.985 [error] Error: [ExtensionListenerError] Extension 'akhail.save-typing' FAILED to handle event: TypeError: Cannot read properties of undefined (reading 'document')
+    at a.value (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:165:20680)
+    at o.y (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at P.$acceptModelChanged (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:155:75622)
+    at c.S (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:152:5505)
+    at c.Q (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:152:5271)
+    at c.M (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:152:4361)
+    at c.L (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:152:3440)
+    at a.value (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:152:2227)
+    at o.y (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at l.fire (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at a.value (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:178:8023)
+    at o.y (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at l.fire (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+    at o.y (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at /home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:107:11236
+    at Socket.S (/home/louis/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/out/vs/workbench/api/node/extensionHostProcess.js:175:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2024-05-07 13:24:04.334 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-05-07 13:24:04.543 [info] Extension host with pid 2774609 exiting with code 0

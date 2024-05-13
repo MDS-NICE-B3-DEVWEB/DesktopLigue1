@@ -5,42 +5,143 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-56ac7c4a-5267-44d6-82d8-9895214687a1
-Extension host agent listening on /tmp/code-56ac7c4a-5267-44d6-82d8-9895214687a1
+Server bound to /tmp/code-28d8044c-e936-4441-8f89-641856cb704b
+Extension host agent listening on /tmp/code-28d8044c-e936-4441-8f89-641856cb704b
 
-[07:18:28] 
-
-
+[07:11:43] 
 
 
-[07:18:29] Extension host agent started.
-[07:18:29] [<unknown>][9e75b951][ExtensionHostConnection] New connection established.
-[07:18:29] [<unknown>][1b016634][ManagementConnection] New connection established.
-[07:18:29] [<unknown>][9e75b951][ExtensionHostConnection] <2722849> Launched Extension Host Process.
-[07:18:34] Getting Manifest... github.copilot
-[07:18:34] Getting Manifest... ms-azuretools.vscode-docker
-[07:18:34] Installing extension: ms-azuretools.vscode-docker
-[07:18:34] Installing extension: github.copilot
-[07:18:38] Extension signature is verified: github.copilot
-[07:18:38] Extension signature is verified: ms-azuretools.vscode-docker
-[07:18:39] Extracted extension to file:///home/louis/.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.1: ms-azuretools.vscode-docker
-[07:18:39] Renamed to /home/louis/.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.1
-[07:18:39] Extracting extension completed. ms-azuretools.vscode-docker
-[07:18:39] Extension installed successfully: ms-azuretools.vscode-docker
-[07:18:39] Marked extension as uninstalled ms-azuretools.vscode-docker-1.29.0
-[07:18:39] Extracted extension to file:///home/louis/.vscode-server/extensions/github.copilot-1.186.0: github.copilot
-[07:18:39] Renamed to /home/louis/.vscode-server/extensions/github.copilot-1.186.0
-[07:18:39] Extracting extension completed. github.copilot
-[07:18:39] Extension installed successfully: github.copilot
-[07:18:39] Marked extension as uninstalled github.copilot-1.184.0
-[07:18:52] [<unknown>][4294a336][ExtensionHostConnection] New connection established.
-[07:18:52] [<unknown>][4294a336][ExtensionHostConnection] <2722976> Launched Extension Host Process.
-[07:18:52] [<unknown>][bcf59783][ManagementConnection] New connection established.
-[07:18:58] Getting Manifest... github.copilot-chat
-[07:18:58] Installing extension: github.copilot-chat
-[07:19:04] Extension signature is verified: github.copilot-chat
-[07:19:04] Extracted extension to file:///home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0: github.copilot-chat
-[07:19:04] Renamed to /home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0
-[07:19:04] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
-[07:19:04] Extracting extension completed. github.copilot-chat
-[07:19:04] Extension installed successfully: github.copilot-chat
+
+
+[07:11:43] Extension host agent started.
+[07:11:44] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:05] [<unknown>][c3b59f3a][ManagementConnection] New connection established.
+[07:12:05] [<unknown>][a37b53b9][ExtensionHostConnection] New connection established.
+[07:12:05] [<unknown>][a37b53b9][ExtensionHostConnection] <2882712> Launched Extension Host Process.
+[07:12:06] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:06] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:06] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:06] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:07] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:07] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:07] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:08] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:08] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:21] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:21] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:22] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:22] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:27] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:28] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:29] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:33] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:42] [<unknown>][9a55b5b9][ExtensionHostConnection] New connection established.
+[07:12:42] [<unknown>][c4f43401][ManagementConnection] New connection established.
+[07:12:42] [<unknown>][9a55b5b9][ExtensionHostConnection] <2882832> Launched Extension Host Process.
+[07:12:42] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:42] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:43] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:43] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:43] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:45] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:45] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:46] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:57] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:12:57] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:00] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:03] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateTitle (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
+    at j.<computed> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[07:13:04] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateTitle (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
+    at j.<computed> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateIcon (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27683)
+    at j.<computed> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[07:13:04] Error [CodeExpectedError]: Could not find pty on pty host
+    at D.U (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateIcon (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27683)
+    at j.<computed> (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/louis/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[07:13:05] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:07] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:07] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:09] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:27] Getting Manifest... devsense.composer-php-vscode
+[07:13:27] Getting Manifest... devsense.profiler-php-vscode
+[07:13:27] Getting Manifest... github.copilot
+[07:13:27] Installing extension: devsense.composer-php-vscode
+[07:13:27] Installing extension: devsense.profiler-php-vscode
+[07:13:27] Installing extension: github.copilot
+[07:13:27] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:27] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:27] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:28] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:28] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:28] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:28] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:28] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:29] [/home/louis/.vscode-server/extensions/github.copilot-chat-0.15.0]: Extension is not compatible with Code 1.88.1. Extension requires: ^1.89.0-20240424.
+[07:13:36] Extension signature is verified: devsense.composer-php-vscode
+[07:13:36] Extension signature is verified: github.copilot
+[07:13:36] Extracted extension to file:///home/louis/.vscode-server/extensions/devsense.composer-php-vscode-1.46.15409: devsense.composer-php-vscode
+[07:13:36] Renamed to /home/louis/.vscode-server/extensions/devsense.composer-php-vscode-1.46.15409
+[07:13:36] Extracting extension completed. devsense.composer-php-vscode
+[07:13:36] Extension installed successfully: devsense.composer-php-vscode
+[07:13:36] Marked extension as uninstalled devsense.composer-php-vscode-1.45.15272
+[07:13:36] Extension signature is verified: devsense.profiler-php-vscode
+[07:13:36] Extracted extension to file:///home/louis/.vscode-server/extensions/devsense.profiler-php-vscode-1.46.15409: devsense.profiler-php-vscode
+[07:13:37] Renamed to /home/louis/.vscode-server/extensions/devsense.profiler-php-vscode-1.46.15409
+[07:13:37] Extracting extension completed. devsense.profiler-php-vscode
+[07:13:37] Extension installed successfully: devsense.profiler-php-vscode
+[07:13:37] Marked extension as uninstalled devsense.profiler-php-vscode-1.45.15272
+[07:13:37] Extracted extension to file:///home/louis/.vscode-server/extensions/github.copilot-1.190.0: github.copilot
+[07:13:37] Renamed to /home/louis/.vscode-server/extensions/github.copilot-1.190.0
+[07:13:37] Extracting extension completed. github.copilot
+[07:13:37] Extension installed successfully: github.copilot
+[07:13:37] Marked extension as uninstalled github.copilot-1.187.0
