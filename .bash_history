@@ -486,3 +486,7 @@ git push
 git add .
 docker compose down
 docker compose up -d
+git add .
+git commit  -m "Ajout de la gestion de connexion"
+git push
+php -v

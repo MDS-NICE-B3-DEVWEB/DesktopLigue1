@@ -1,0 +1,22 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-cddbf3de-9a3d-48b7-a9e2-0cf89697ab99
+Extension host agent listening on /tmp/code-cddbf3de-9a3d-48b7-a9e2-0cf89697ab99
+
+[08:53:08] 
+
+
+
+
+[08:53:08] Extension host agent started.
+[08:53:08] [<unknown>][6b76d5b5][ManagementConnection] New connection established.
+[08:53:08] [<unknown>][95967102][ExtensionHostConnection] New connection established.
+[08:53:08] Deleted uninstalled extension from disk github.copilot /home/louis/.vscode-server/extensions/github.copilot-1.190.0
+[08:53:08] [<unknown>][95967102][ExtensionHostConnection] <3034885> Launched Extension Host Process.
+[08:53:20] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/louis/.vscode-server/data/logs/20240424T070834/exthost6/GitHub.copilot' failed: No such file or directory (EUNKNOWN) (path: /home/louis)
+[08:53:20] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/louis/.vscode-server/data/logs/20240424T070834/exthost6/GitHub.copilot' failed: No such file or directory

@@ -1,0 +1,18 @@
+2024-05-20 08:53:08.295 [info] 
+
+
+
+
+2024-05-20 08:53:08.311 [info] Extension host agent started.
+2024-05-20 08:53:08.466 [info] [<unknown>][6b76d5b5][ManagementConnection] New connection established.
+2024-05-20 08:53:08.475 [info] [<unknown>][95967102][ExtensionHostConnection] New connection established.
+2024-05-20 08:53:08.530 [info] Deleted uninstalled extension from disk github.copilot /home/louis/.vscode-server/extensions/github.copilot-1.190.0
+2024-05-20 08:53:08.671 [info] [<unknown>][95967102][ExtensionHostConnection] <3034885> Launched Extension Host Process.
+2024-05-20 08:53:20.447 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/louis/.vscode-server/data/logs/20240424T070834/exthost6/GitHub.copilot' failed: No such file or directory (EUNKNOWN) (path: /home/louis)
+2024-05-20 08:53:20.449 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/louis/.vscode-server/data/logs/20240424T070834/exthost6/GitHub.copilot' failed: No such file or directory
+2024-05-20 08:53:32.584 [info] Getting Manifest... github.copilot
+2024-05-20 08:53:32.585 [info] Getting Manifest... github.copilot-chat
+2024-05-20 08:53:32.585 [info] Getting Manifest... onecentlin.laravel-blade
+2024-05-20 08:53:32.618 [info] Installing extension: github.copilot-chat
+2024-05-20 08:53:32.628 [info] Installing extension: github.copilot
+2024-05-20 08:53:32.632 [info] Installing extension: onecentlin.laravel-blade

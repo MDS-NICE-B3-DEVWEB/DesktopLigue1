@@ -1,0 +1,11 @@
+2024-05-15 12:14:42.566 [info] Extension host with pid 2936989 started
+2024-05-15 12:14:47.532 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-15 12:14:47.534 [info] ExtensionService#_doActivateExtension akhail.save-typing, startup: true, activationEvent: '*'
+2024-05-15 12:14:49.205 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-15 12:14:49.206 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-15 12:14:57.555 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-15 12:14:57.558 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-15 12:14:57.559 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-05-15 12:14:57.560 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-05-15 12:19:53.888 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-05-15 12:19:53.891 [info] Extension host with pid 2936989 exiting with code 0
