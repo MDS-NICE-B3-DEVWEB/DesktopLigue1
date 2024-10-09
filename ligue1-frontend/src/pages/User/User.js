@@ -33,7 +33,9 @@ const User = ({ setIsUserLoggedIn }) => { // Ajoutez setIsUserLoggedIn en tant q
       localStorage.removeItem('name');
       localStorage.removeItem('email');
       localStorage.removeItem('points');
-      localStorage.getItem('access_token') == null;
+      if (localStorage.getItem('access_token') == null) {
+        localStorage.removeItem('access_token');
+      }
       setUser(null);
       setIsUserLoggedIn(false); // Mettre à jour l'état isUserLoggedIn
       navigate('/login');

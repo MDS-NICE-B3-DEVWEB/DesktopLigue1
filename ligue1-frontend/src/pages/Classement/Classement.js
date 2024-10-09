@@ -1,13 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import './Classement.css'; // Import the CSS file
-import ClassementSummary from './ClassementSummary';
 
 function Classement() {
   const [data, setData] = useState(null);
+  const [selectedSeasonId, setSelectedSeasonId] = useState('358'); // État initialisé avec l'ID de la saison par défaut
+  const seasons = [ // Tableau des saisons et leurs IDs
+    { name: '2018-19', id: '4' },
+    { name: '2019-20', id: '23' },
+    { name: '2020-21', id: '55' },
+    { name: '2021-22', id: '110' },
+    { name: '2022-23', id: '167' },
+    { name: '2023-24', id: '269' },
+    { name: '2024-25', id: '358' },
+    // Ajoutez d'autres saisons ici
+  ];
 
   useEffect(() => {
-    const id_saison = '269'; // Replace 'your_season_id' with the ID of the season you want to retrieve
-    fetch(`https://api.ligue1.live/api/classement?id_saison=${id_saison}`, {
+    fetch(`https://api.ligue1.live/api/classement?id_saison=${selectedSeasonId}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -28,11 +37,17 @@ function Classement() {
     .catch((error) => {
       console.error('Error fetching data:', error);
     });
-    
-  }, []);
+  }, [selectedSeasonId]); // Ajout de selectedSeasonId dans le tableau de dépendances
 
   return (
     <div>
+      <select value={selectedSeasonId} onChange={e => setSelectedSeasonId(e.target.value)}>
+        {seasons.map(season => (
+          <option key={season.id} value={season.id}>
+            {season.name}
+          </option>
+        ))}
+      </select>
       {data ? (
         <div>
           <table className="table-standings">
@@ -47,7 +62,6 @@ function Classement() {
             </thead>
             <tbody>
               {data.teams.map((team, index) => (
-                
                 <tr key={index}>
                   <td className="team-name">
                     {team.logo && <img src={team.logo} alt={team.teamName} className="team-logo" />}
@@ -63,7 +77,7 @@ function Classement() {
           </table>
         </div>
       ) : (
-        <p>loading...</p>
+        <p>Loading...</p>
       )}
     </div>
   );

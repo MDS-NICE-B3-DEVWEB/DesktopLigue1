@@ -4,14 +4,25 @@ import './Match.css'; // Import du fichier CSS
 const MatchScreen = () => {
   const [matches, setMatches] = useState([]);
   const [selectedMatchday, setSelectedMatchday] = useState(null);
+  const [selectedSeasonId, setSelectedSeasonId] = useState('358'); // État initialisé avec l'ID de la saison par défaut
+  const seasons = [ // Tableau des saisons et leurs IDs
+    { name: '2018-19', id: '4' },
+    { name: '2019-20', id: '23' },
+    { name: '2020-21', id: '55' },
+    { name: '2021-22', id: '110' },
+    { name: '2022-23', id: '167' },
+    { name: '2023-24', id: '269' },
+    { name: '2024-25', id: '358' },
+    // Ajoutez d'autres saisons ici
+  ];
 
   useEffect(() => {
     fetchMatches();
-  }, []);
+  }, [selectedSeasonId]); 
 
   const fetchMatches = async () => {
     try {
-      const response = await fetch('https://api.ligue1.live/api/match?id_saison=269', {
+      const response = await fetch(`https://api.ligue1.live/api/match?id_saison=${selectedSeasonId}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -39,6 +50,7 @@ const MatchScreen = () => {
         onClick={() => setSelectedMatchday(matchday.matchdayID)}>
         Jour {index + 1}
       </button>
+      
     ));
   };
 
@@ -48,6 +60,20 @@ const MatchScreen = () => {
     const selectedMatchdayData = matches.find(matchday => matchday.matchdayID === selectedMatchday);
     if (!selectedMatchdayData) return null;
 
+    function SeasonSelector({ seasons, selectedSeasonId, setSelectedSeasonId }) {
+      return (
+        <div>
+          <select value={selectedSeasonId} onChange={e => setSelectedSeasonId(e.target.value)}>
+            {seasons.map(season => (
+              <option key={season.id} value={season.id}>
+                {season.name}
+              </option>
+            ))}
+          </select>
+        </div>
+      );
+    }
+    
     return (
       <div className="matchesContainer">
         {selectedMatchdayData.matches.map((match, idx) => (
@@ -70,14 +96,24 @@ const MatchScreen = () => {
       </div>
     );
   };
+ 
 
   return (
+    
     <div className="containerMatch">
+      <select value={selectedSeasonId} onChange={e => setSelectedSeasonId(e.target.value)}>
+        {seasons.map(season => (
+          <option key={season.id} value={season.id}>
+            {season.name}
+          </option>
+        ))}
+      </select>
       <div className="topSection"></div>
       <div className="matchdayButtonsContainer">
         <div className="matchdayButtonsScrollView">{renderMatchdays()}</div>
       </div>
       <div className="matchesScrollViewContainer">{renderMatches()}</div>
+      
     </div>
   );
 };
